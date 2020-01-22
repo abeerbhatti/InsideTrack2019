@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="FormsVerification" time="98" tests="1" failures="2" errors="0">
+   <testsuite name="FormsVerification" tests="1" failures="2" errors="0" time="98" timestamp="2019-11-12 10:42:05" hostname="abeerbhatti - 192.168.88.21" id="Test Suites/FormsVerification">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/abeerbhatti/Katalon Studio/InsideTrack-August2019/Reports/FormsVerification/20191112_104152"/>
+         <property name="logFiles" value="/Users/abeerbhatti/Katalon Studio/InsideTrack-August2019/Reports/FormsVerification/20191112_104152/execution0.log"/>
+         <property name="attachments" value="/Users/abeerbhatti/Katalon Studio/InsideTrack-August2019/Reports/FormsVerification/20191112_104152/1573537334128.png, /Users/abeerbhatti/Katalon Studio/InsideTrack-August2019/Reports/FormsVerification/20191112_104152/1573537376667.png"/>
+         <property name="hostName" value="abeerbhatti - 192.168.88.21"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.9.1.2"/>
+         <property name="browser" value="Chrome 78.0.3904.97"/>
+         <property name="hostAddress" value="192.168.88.21"/>
+         <property name="sessionId" value="672b06e11eed9cae7aa183cbe3cd2d89"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/requestRegisterationLink" classname="Test Cases/requestRegisterationLink" status="FAILED">
+         <failure type="FAILED" message="Test Cases/requestRegisterationLink FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Or, call Member Services at 212-505-3030 ext. 194' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Or, call Member Services at 212-505-3030 ext. 194' is not present on page )
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1693)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$1.call(Unknown Source)
+	at requestRegisterationLink.run(requestRegisterationLink:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1573537322916.run(TempTestSuite1573537322916.groovy:36)
+"/>
+         <system-out><![CDATA[2019-11-12 10:42:05 - [TEST_CASE][FAILED] - Test Cases/requestRegisterationLink: Test Cases/requestRegisterationLink FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Or, call Member Services at 212-505-3030 ext. 194' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Or, call Member Services at 212-505-3030 ext. 194' is not present on page )
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1693)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$1.call(Unknown Source)
+	at requestRegisterationLink.run(requestRegisterationLink:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1573537322916.run(TempTestSuite1573537322916.groovy:36)
+
+
+2019-11-12 10:42:05 - [TEST_STEP][PASSED] - openBrowser("https://uptime-test.wisegateit.com/member/login/auth"): Browser is opened with url: 'https://uptime-test.wisegateit.com/member/login/auth'
+
+2019-11-12 10:42:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-11-12 10:42:06 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-11-12 10:42:11 - [MESSAGE][PASSED] - Browser is opened with url: 'https://uptime-test.wisegateit.com/member/login/auth'
+
+2019-11-12 10:42:11 - [TEST_STEP][PASSED] - click(findTestObject("RequestRegistrationLink/requestRegisterationLink")): Object: 'Object Repository/RequestRegistrationLink/requestRegisterationLink' is clicked on
+
+2019-11-12 10:42:13 - [MESSAGE][PASSED] - Object: 'Object Repository/RequestRegistrationLink/requestRegisterationLink' is clicked on
+
+2019-11-12 10:42:13 - [TEST_STEP][PASSED] - verifyTextPresent("Request Your Personal Registration Link!", false): Text 'Request Your Personal Registration Link!' is present on page 
+
+2019-11-12 10:42:13 - [MESSAGE][PASSED] - Text 'Request Your Personal Registration Link!' is present on page 
+
+2019-11-12 10:42:13 - [TEST_STEP][PASSED] - setText(findTestObject("RequestRegistrationLink/name"), "Test Name A"): Text 'Test Name A' is set on object 'Object Repository/RequestRegistrationLink/name'
+
+2019-11-12 10:42:13 - [MESSAGE][PASSED] - Text 'Test Name A' is set on object 'Object Repository/RequestRegistrationLink/name'
+
+2019-11-12 10:42:13 - [TEST_STEP][PASSED] - setText(findTestObject("RequestRegistrationLink/email"), "abeer.bhatti+TestNameA@conradlabs.com"): Text 'abeer.bhatti+TestNameA@conradlabs.com' is set on object 'Object Repository/RequestRegistrationLink/email'
+
+2019-11-12 10:42:13 - [MESSAGE][PASSED] - Text 'abeer.bhatti+TestNameA@conradlabs.com' is set on object 'Object Repository/RequestRegistrationLink/email'
+
+2019-11-12 10:42:13 - [TEST_STEP][PASSED] - setText(findTestObject("RequestRegistrationLink/title"), "Title for Test Name A"): Text 'Title for Test Name A' is set on object 'Object Repository/RequestRegistrationLink/title'
+
+2019-11-12 10:42:13 - [MESSAGE][PASSED] - Text 'Title for Test Name A' is set on object 'Object Repository/RequestRegistrationLink/title'
+
+2019-11-12 10:42:13 - [TEST_STEP][PASSED] - setText(findTestObject("RequestRegistrationLink/company"), "Company for Test Name A"): Text 'Company for Test Name A' is set on object 'Object Repository/RequestRegistrationLink/company'
+
+2019-11-12 10:42:13 - [MESSAGE][PASSED] - Text 'Company for Test Name A' is set on object 'Object Repository/RequestRegistrationLink/company'
+
+2019-11-12 10:42:13 - [TEST_STEP][PASSED] - expectedPlaceholder = "Please send my registration link for Uptime Institute.": null
+
+2019-11-12 10:42:13 - [TEST_STEP][PASSED] - placeholder = getText(findTestObject("RequestRegistrationLink/message")): Text of object 'Object Repository/RequestRegistrationLink/message' is: 'Please send my registration link for Uptime Institute.'
+
+2019-11-12 10:42:14 - [MESSAGE][PASSED] - Text of object 'Object Repository/RequestRegistrationLink/message' is: 'Please send my registration link for Uptime Institute.'
+
+2019-11-12 10:42:14 - [TEST_STEP][PASSED] - if (expectedPlaceholder != placeholder): null
+
+2019-11-12 10:42:14 - [TEST_STEP][FAILED] - verifyTextPresent("Or, call Member Services at 212-505-3030 ext. 194", false): verifyTextPresent("Or, call Member Services at 212-505-3030 ext. 194", false) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Or, call Member Services at 212-505-3030 ext. 194' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Or, call Member Services at 212-505-3030 ext. 194' is not present on page )
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1693)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$1.call(Unknown Source)
+	at requestRegisterationLink.run(requestRegisterationLink:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1573537322916.run(TempTestSuite1573537322916.groovy:36)
+
+
+2019-11-12 10:42:14 - [MESSAGE][FAILED] - Text 'Or, call Member Services at 212-505-3030 ext. 194' is not present on page 
+
+2019-11-12 10:42:14 - [MESSAGE][FAILED] - Unable to verify text 'Or, call Member Services at 212-505-3030 ext. 194' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Or, call Member Services at 212-505-3030 ext. 194' is not present on page )
+[[ATTACHMENT|/Users/abeerbhatti/Katalon Studio/InsideTrack-August2019/Reports/FormsVerification/20191112_104152/1573537334128.png]]
+
+2019-11-12 10:42:14 - [MESSAGE][FAILED] - verifyTextPresent("Or, call Member Services at 212-505-3030 ext. 194", false) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Or, call Member Services at 212-505-3030 ext. 194' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Or, call Member Services at 212-505-3030 ext. 194' is not present on page )
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1693)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$1.call(Unknown Source)
+	at requestRegisterationLink.run(requestRegisterationLink:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1573537322916.run(TempTestSuite1573537322916.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-11-12 10:42:05 - [TEST_CASE][FAILED] - Test Cases/requestRegisterationLink: Test Cases/requestRegisterationLink FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Or, call Member Services at 212-505-3030 ext. 194' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Or, call Member Services at 212-505-3030 ext. 194' is not present on page )
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1693)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$1.call(Unknown Source)
+	at requestRegisterationLink.run(requestRegisterationLink:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1573537322916.run(TempTestSuite1573537322916.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/feedbackForm" classname="Test Cases/feedbackForm" status="FAILED">
+         <failure type="FAILED" message="Test Cases/feedbackForm FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Or, call Member Services at 212-505-3030 ext. 194' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Or, call Member Services at 212-505-3030 ext. 194' is not present on page )
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1693)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$1.call(Unknown Source)
+	at feedbackForm.run(feedbackForm:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1573537322916.run(TempTestSuite1573537322916.groovy:36)
+"/>
+         <system-out><![CDATA[2019-11-12 10:42:14 - [TEST_CASE][FAILED] - Test Cases/feedbackForm: Test Cases/feedbackForm FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Or, call Member Services at 212-505-3030 ext. 194' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Or, call Member Services at 212-505-3030 ext. 194' is not present on page )
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1693)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$1.call(Unknown Source)
+	at feedbackForm.run(feedbackForm:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1573537322916.run(TempTestSuite1573537322916.groovy:36)
+
+
+2019-11-12 10:42:14 - [TEST_STEP][PASSED] - openBrowser("https://uptime-test.wisegateit.com/member/login/auth"): Browser is opened with url: 'https://uptime-test.wisegateit.com/member/login/auth'
+
+2019-11-12 10:42:14 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-11-12 10:42:14 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-11-12 10:42:20 - [MESSAGE][PASSED] - Browser is opened with url: 'https://uptime-test.wisegateit.com/member/login/auth'
+
+2019-11-12 10:42:20 - [TEST_STEP][PASSED] - personas.userPersonas.loginUptimeGeneralUser(): personas.userPersonas.loginUptimeGeneralUser is PASSED
+
+2019-11-12 10:42:20 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-11-12 10:42:20 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-11-12 10:42:24 - [MESSAGE][PASSED] - Browser is opened with url: 'https://uptime-test.wisegateit.com/member/login/auth'
+
+2019-11-12 10:42:24 - [MESSAGE][PASSED] - Text 'abeer.bhatti+sabraitis@conradlabs.com' is set on object 'Object Repository/Login/Username'
+
+2019-11-12 10:42:24 - [MESSAGE][PASSED] - Text 'w1seg@te' is set on object 'Object Repository/Login/Password'
+
+2019-11-12 10:42:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Loginbtn' is clicked on
+
+2019-11-12 10:42:43 - [MESSAGE][PASSED] - personas.userPersonas.loginUptimeGeneralUser is PASSED
+
+2019-11-12 10:42:43 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("contactMemberServices/memberServicesLink"), 3): Scroll to object 'Object Repository/contactMemberServices/memberServicesLink' successfully
+
+2019-11-12 10:42:43 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/contactMemberServices/memberServicesLink' successfully
+
+2019-11-12 10:42:43 - [TEST_STEP][PASSED] - click(findTestObject("contactMemberServices/memberServicesLink")): Object: 'Object Repository/contactMemberServices/memberServicesLink' is clicked on
+
+2019-11-12 10:42:56 - [MESSAGE][PASSED] - Object: 'Object Repository/contactMemberServices/memberServicesLink' is clicked on
+
+2019-11-12 10:42:56 - [TEST_STEP][PASSED] - verifyTextPresent("We'd like to hear from you!", false): Text 'We'd like to hear from you!' is present on page 
+
+2019-11-12 10:42:56 - [MESSAGE][PASSED] - Text 'We'd like to hear from you!' is present on page 
+
+2019-11-12 10:42:56 - [TEST_STEP][FAILED] - verifyTextPresent("Or, call Member Services at 212-505-3030 ext. 194", false): verifyTextPresent("Or, call Member Services at 212-505-3030 ext. 194", false) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Or, call Member Services at 212-505-3030 ext. 194' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Or, call Member Services at 212-505-3030 ext. 194' is not present on page )
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1693)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$1.call(Unknown Source)
+	at feedbackForm.run(feedbackForm:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1573537322916.run(TempTestSuite1573537322916.groovy:36)
+
+
+2019-11-12 10:42:56 - [MESSAGE][FAILED] - Text 'Or, call Member Services at 212-505-3030 ext. 194' is not present on page 
+
+2019-11-12 10:42:56 - [MESSAGE][FAILED] - Unable to verify text 'Or, call Member Services at 212-505-3030 ext. 194' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Or, call Member Services at 212-505-3030 ext. 194' is not present on page )
+[[ATTACHMENT|/Users/abeerbhatti/Katalon Studio/InsideTrack-August2019/Reports/FormsVerification/20191112_104152/1573537376667.png]]
+
+2019-11-12 10:42:56 - [MESSAGE][FAILED] - verifyTextPresent("Or, call Member Services at 212-505-3030 ext. 194", false) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Or, call Member Services at 212-505-3030 ext. 194' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Or, call Member Services at 212-505-3030 ext. 194' is not present on page )
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1693)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$1.call(Unknown Source)
+	at feedbackForm.run(feedbackForm:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1573537322916.run(TempTestSuite1573537322916.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-11-12 10:42:14 - [TEST_CASE][FAILED] - Test Cases/feedbackForm: Test Cases/feedbackForm FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Or, call Member Services at 212-505-3030 ext. 194' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Or, call Member Services at 212-505-3030 ext. 194' is not present on page )
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1693)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$1.call(Unknown Source)
+	at feedbackForm.run(feedbackForm:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1573537322916.run(TempTestSuite1573537322916.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/referYourColleague" classname="Test Cases/referYourColleague" status="PASSED">
+         <system-out><![CDATA[2019-11-12 10:42:56 - [TEST_CASE][PASSED] - Test Cases/referYourColleague: Test Cases/referYourColleague
+
+2019-11-12 10:42:57 - [TEST_STEP][PASSED] - openBrowser("https://uptime-test.wisegateit.com/member/login/auth"): Browser is opened with url: 'https://uptime-test.wisegateit.com/member/login/auth'
+
+2019-11-12 10:42:57 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-11-12 10:42:57 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-11-12 10:43:02 - [MESSAGE][PASSED] - Browser is opened with url: 'https://uptime-test.wisegateit.com/member/login/auth'
+
+2019-11-12 10:43:02 - [TEST_STEP][PASSED] - personas.userPersonas.loginUptimeGeneralUser(): personas.userPersonas.loginUptimeGeneralUser is PASSED
+
+2019-11-12 10:43:02 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-11-12 10:43:02 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-11-12 10:43:06 - [MESSAGE][PASSED] - Browser is opened with url: 'https://uptime-test.wisegateit.com/member/login/auth'
+
+2019-11-12 10:43:06 - [MESSAGE][PASSED] - Text 'abeer.bhatti+sabraitis@conradlabs.com' is set on object 'Object Repository/Login/Username'
+
+2019-11-12 10:43:07 - [MESSAGE][PASSED] - Text 'w1seg@te' is set on object 'Object Repository/Login/Password'
+
+2019-11-12 10:43:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Loginbtn' is clicked on
+
+2019-11-12 10:43:25 - [MESSAGE][PASSED] - personas.userPersonas.loginUptimeGeneralUser is PASSED
+
+2019-11-12 10:43:25 - [TEST_STEP][PASSED] - click(findTestObject("HomePage/memberLink")): Object: 'Object Repository/HomePage/memberLink' is clicked on
+
+2019-11-12 10:43:38 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/memberLink' is clicked on
+
+2019-11-12 10:43:38 - [TEST_STEP][PASSED] - verifyTextPresent("All Members", false): Text 'All Members' is present on page 
+
+2019-11-12 10:43:38 - [MESSAGE][PASSED] - Text 'All Members' is present on page 
+
+2019-11-12 10:43:38 - [TEST_STEP][PASSED] - click(findTestObject("referYourColleague/referaColleaguelink")): Object: 'Object Repository/referYourColleague/referaColleaguelink' is clicked on
+
+2019-11-12 10:43:39 - [MESSAGE][PASSED] - Object: 'Object Repository/referYourColleague/referaColleaguelink' is clicked on
+
+2019-11-12 10:43:39 - [TEST_STEP][PASSED] - verifyTextPresent("Refer Your Colleagues to Inside Track!", false): Text 'Refer Your Colleagues to Inside Track!' is present on page 
+
+2019-11-12 10:43:39 - [MESSAGE][PASSED] - Text 'Refer Your Colleagues to Inside Track!' is present on page 
+
+2019-11-12 10:43:39 - [TEST_STEP][PASSED] - expectedPlaceholder = "Please list names, email addresses, and titles of colleagues you would like to refer.": null
+
+2019-11-12 10:43:39 - [TEST_STEP][PASSED] - placeholdercurrent = getAttribute(findTestObject("referYourColleague/requestedNames"), "placeholder"): Attribute 'placeholder' of object 'Object Repository/referYourColleague/requestedNames' is: 'Please list names, email addresses, and titles of colleagues you would like to refer.'
+
+2019-11-12 10:43:39 - [MESSAGE][PASSED] - Attribute 'placeholder' of object 'Object Repository/referYourColleague/requestedNames' is: 'Please list names, email addresses, and titles of colleagues you would like to refer.'
+
+2019-11-12 10:43:39 - [TEST_STEP][PASSED] - if (expectedPlaceholder != placeholdercurrent): null
+
+2019-11-12 10:43:39 - [TEST_STEP][PASSED] - verifyMatch(placeholdercurrent, expectedPlaceholder, false): Actual text 'Please list names, email addresses, and titles of colleagues you would like to refer.' and expected text 'Please list names, email addresses, and titles of colleagues you would like to refer.' are matched 
+
+2019-11-12 10:43:39 - [MESSAGE][PASSED] - Actual text 'Please list names, email addresses, and titles of colleagues you would like to refer.' and expected text 'Please list names, email addresses, and titles of colleagues you would like to refer.' are matched 
+
+2019-11-12 10:43:39 - [TEST_STEP][PASSED] - Message = "Please provide an Inside Track registration link to the names, emails and titles listed above.": null
+
+2019-11-12 10:43:39 - [TEST_STEP][PASSED] - placeholderMessage = getText(findTestObject("referYourColleague/message")): Text of object 'Object Repository/referYourColleague/message' is: 'Please provide an Inside Track registration link to the names, emails and titles listed above.'
+
+2019-11-12 10:43:39 - [MESSAGE][PASSED] - Text of object 'Object Repository/referYourColleague/message' is: 'Please provide an Inside Track registration link to the names, emails and titles listed above.'
+
+2019-11-12 10:43:39 - [TEST_STEP][PASSED] - verifyMatch(Message, placeholderMessage, false): Actual text 'Please provide an Inside Track registration link to the names, emails and titles listed above.' and expected text 'Please provide an Inside Track registration link to the names, emails and titles listed above.' are matched 
+
+2019-11-12 10:43:39 - [MESSAGE][PASSED] - Actual text 'Please provide an Inside Track registration link to the names, emails and titles listed above.' and expected text 'Please provide an Inside Track registration link to the names, emails and titles listed above.' are matched 
+
+2019-11-12 10:43:39 - [TEST_STEP][PASSED] - setText(findTestObject("referYourColleague/requestedNames"), "Name 1:abcd"): Text 'Name 1:abcd' is set on object 'Object Repository/referYourColleague/requestedNames'
+
+2019-11-12 10:43:40 - [MESSAGE][PASSED] - Text 'Name 1:abcd' is set on object 'Object Repository/referYourColleague/requestedNames'
+
+2019-11-12 10:43:40 - [TEST_STEP][PASSED] - sendKeys(findTestObject("referYourColleague/requestedNames"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/referYourColleague/requestedNames'
+
+2019-11-12 10:43:40 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/referYourColleague/requestedNames'
+
+2019-11-12 10:43:40 - [TEST_STEP][PASSED] - sendKeys(findTestObject("referYourColleague/requestedNames"), "Name 2:xyz"): Keys 'Name 2:xyz' sent to object: 'Object Repository/referYourColleague/requestedNames'
+
+2019-11-12 10:43:40 - [MESSAGE][PASSED] - Keys 'Name 2:xyz' sent to object: 'Object Repository/referYourColleague/requestedNames'
+
+2019-11-12 10:43:40 - [TEST_STEP][PASSED] - sendKeys(findTestObject("referYourColleague/requestedNames"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/referYourColleague/requestedNames'
+
+2019-11-12 10:43:40 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/referYourColleague/requestedNames'
+
+2019-11-12 10:43:40 - [TEST_STEP][PASSED] - sendKeys(findTestObject("referYourColleague/requestedNames"), "Name 3:efg"): Keys 'Name 3:efg' sent to object: 'Object Repository/referYourColleague/requestedNames'
+
+2019-11-12 10:43:40 - [MESSAGE][PASSED] - Keys 'Name 3:efg' sent to object: 'Object Repository/referYourColleague/requestedNames'
+
+2019-11-12 10:43:40 - [TEST_STEP][PASSED] - click(findTestObject("referYourColleague/submitBtn")): Object: 'Object Repository/referYourColleague/submitBtn' is clicked on
+
+2019-11-12 10:43:43 - [MESSAGE][PASSED] - Object: 'Object Repository/referYourColleague/submitBtn' is clicked on
+
+2019-11-12 10:43:43 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("referYourColleague/successReferYourColleagues"), 2): Object 'Object Repository/referYourColleague/successReferYourColleagues' is present
+
+2019-11-12 10:43:43 - [MESSAGE][PASSED] - Object 'Object Repository/referYourColleague/successReferYourColleagues' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-11-12 10:42:05 - [TEST_SUITE][FAILED] - FormsVerification: Test Cases/requestRegisterationLink FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Or, call Member Services at 212-505-3030 ext. 194' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Or, call Member Services at 212-505-3030 ext. 194' is not present on page )
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1693)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$1.call(Unknown Source)
+	at requestRegisterationLink.run(requestRegisterationLink:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1573537322916.run(TempTestSuite1573537322916.groovy:36)]]></system-out>
+      <system-err><![CDATA[2019-11-12 10:42:05 - [TEST_SUITE][FAILED] - FormsVerification: Test Cases/requestRegisterationLink FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Or, call Member Services at 212-505-3030 ext. 194' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Or, call Member Services at 212-505-3030 ext. 194' is not present on page )
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1693)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$1.call(Unknown Source)
+	at requestRegisterationLink.run(requestRegisterationLink:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1573537322916.run(TempTestSuite1573537322916.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

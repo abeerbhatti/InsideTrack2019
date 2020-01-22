@@ -1,0 +1,43 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+ContentCreation,Chrome 78.0.3904.97,,2019-11-11 17:20:26,2019-11-11 17:23:52,3m - 25.880s,ERROR
+,,,,,,
+Test Cases/createQuestion,Chrome 78.0.3904.97,,2019-11-11 17:20:27,2019-11-11 17:22:00,1m - 33.241s,PASSED
+personas.userPersonas.loginUptimeCommunityMgr(),Chrome 78.0.3904.97,,2019-11-11 17:20:27,2019-11-11 17:20:48,21.506s,PASSED
+insideTrack.Discussions.redirecttoQuestion(),Chrome 78.0.3904.97,,2019-11-11 17:20:48,2019-11-11 17:20:58,9.631s,PASSED
+"questionName = findTestData(""Question"").getValue(""question"", 1)",Chrome 78.0.3904.97,,2019-11-11 17:20:58,2019-11-11 17:20:58,0.045s,PASSED
+"questionDescription = findTestData(""Question"").getValue(""questionDescription"", 1)",Chrome 78.0.3904.97,,2019-11-11 17:20:58,2019-11-11 17:20:58,0.029s,PASSED
+"privateGroup = findTestData(""Question"").getValue(""privateGroup"", 1)",Chrome 78.0.3904.97,,2019-11-11 17:20:58,2019-11-11 17:20:58,0.044s,PASSED
+"categoryName = findTestData(""Question"").getValue(""categoryName"", 1)",Chrome 78.0.3904.97,,2019-11-11 17:20:58,2019-11-11 17:20:58,0.022s,PASSED
+"insideTrack.Discussions.setQuestionTitleandDetail(questionName, questionDescription)",Chrome 78.0.3904.97,,2019-11-11 17:20:58,2019-11-11 17:20:59,1.270s,PASSED
+insideTrack.Content.setVisibility(privateGroup),Chrome 78.0.3904.97,,2019-11-11 17:20:59,2019-11-11 17:21:01,1.211s,PASSED
+insideTrack.Content.setCategories(categoryName),Chrome 78.0.3904.97,,2019-11-11 17:21:01,2019-11-11 17:21:02,1.105s,PASSED
+insideTrack.Discussions.discussionClickPreviewandPost(),Chrome 78.0.3904.97,,2019-11-11 17:21:02,2019-11-11 17:21:59,56.963s,PASSED
+insideTrack.Discussions.verifyQuestionSuccess(),Chrome 78.0.3904.97,,2019-11-11 17:21:59,2019-11-11 17:22:00,1.064s,PASSED
+,,,,,,
+Test Cases/createPoll,Chrome 78.0.3904.97,,2019-11-11 17:22:00,2019-11-11 17:23:26,1m - 26.387s,PASSED
+personas.userPersonas.loginUptimeCommunityMgr(),Chrome 78.0.3904.97,,2019-11-11 17:22:00,2019-11-11 17:22:13,12.543s,PASSED
+insideTrack.Discussions.redirecttoPoll(),Chrome 78.0.3904.97,,2019-11-11 17:22:13,2019-11-11 17:22:18,5.218s,PASSED
+"pollName = findTestData(""Polls"").getValue(""Poll"", 1)",Chrome 78.0.3904.97,,2019-11-11 17:22:18,2019-11-11 17:22:18,0.028s,PASSED
+"pollDescription = findTestData(""Polls"").getValue(""pollDescription"", 1)",Chrome 78.0.3904.97,,2019-11-11 17:22:18,2019-11-11 17:22:18,0.021s,PASSED
+"optionA = findTestData(""Polls"").getValue(""Answer1"", 1)",Chrome 78.0.3904.97,,2019-11-11 17:22:18,2019-11-11 17:22:18,0.047s,PASSED
+"optionB = findTestData(""Polls"").getValue(""Answer2"", 1)",Chrome 78.0.3904.97,,2019-11-11 17:22:18,2019-11-11 17:22:18,0.032s,PASSED
+"optionC = findTestData(""Polls"").getValue(""Answer3"", 1)",Chrome 78.0.3904.97,,2019-11-11 17:22:18,2019-11-11 17:22:18,0.021s,PASSED
+"privateGroup = findTestData(""Polls"").getValue(""privateGroup"", 1)",Chrome 78.0.3904.97,,2019-11-11 17:22:18,2019-11-11 17:22:18,0.025s,PASSED
+"categoryName = findTestData(""Polls"").getValue(""categoryName"", 1)",Chrome 78.0.3904.97,,2019-11-11 17:22:18,2019-11-11 17:22:18,0.014s,PASSED
+"insideTrack.Discussions.setPollTitleandDetail(pollName, pollDescription)",Chrome 78.0.3904.97,,2019-11-11 17:22:18,2019-11-11 17:22:19,0.782s,PASSED
+"insideTrack.Discussions.setOptionsForPolls(optionA, optionB, optionC)",Chrome 78.0.3904.97,,2019-11-11 17:22:19,2019-11-11 17:22:19,0.223s,PASSED
+insideTrack.Content.setVisibility(privateGroup),Chrome 78.0.3904.97,,2019-11-11 17:22:19,2019-11-11 17:22:20,1.149s,PASSED
+insideTrack.Content.setCategories(categoryName),Chrome 78.0.3904.97,,2019-11-11 17:22:20,2019-11-11 17:22:21,1.134s,PASSED
+insideTrack.Discussions.discussionClickPreviewandPost(),Chrome 78.0.3904.97,,2019-11-11 17:22:21,2019-11-11 17:23:17,55.807s,PASSED
+insideTrack.Discussions.verifyPollSuccess(),Chrome 78.0.3904.97,,2019-11-11 17:23:17,2019-11-11 17:23:23,5.576s,PASSED
+refresh(),Chrome 78.0.3904.97,,2019-11-11 17:23:23,2019-11-11 17:23:26,3.552s,PASSED
+,,,,,,
+Test Cases/createAnnouncement,Chrome 78.0.3904.97,,2019-11-11 17:23:26,2019-11-11 17:23:52,25.903s,ERROR
+personas.userPersonas.loginUptimeCommunityMgr(),Chrome 78.0.3904.97,,2019-11-11 17:23:26,2019-11-11 17:23:41,14.832s,PASSED
+insideTrack.Announcement.redirecttoAnnouncement(),Chrome 78.0.3904.97,,2019-11-11 17:23:41,2019-11-11 17:23:51,9.319s,PASSED
+"announcementtitle = findTestData(""Announcements"").getValue(""announcement"", 1)",Chrome 78.0.3904.97,,2019-11-11 17:23:51,2019-11-11 17:23:51,0.017s,PASSED
+"announcementDescription = findTestData(""Announcements"").getValue(""announcementDescription"", 1)",Chrome 78.0.3904.97,,2019-11-11 17:23:51,2019-11-11 17:23:51,0.019s,PASSED
+"type = findTestData(""Announcements"").getValue(""Type"", 1)",Chrome 78.0.3904.97,,2019-11-11 17:23:51,2019-11-11 17:23:51,0.014s,PASSED
+"privateGroup = findTestData(""Announcements"").getValue(""privateGroup"", 1)",Chrome 78.0.3904.97,,2019-11-11 17:23:51,2019-11-11 17:23:51,0.014s,PASSED
+"insideTrack.Announcement.setAnnouncementTitleandDescription(announcementtitle, announcementDescription)",Chrome 78.0.3904.97,,2019-11-11 17:23:51,2019-11-11 17:23:51,0.318s,PASSED
+insideTrack.Announcement.setAnnouncementType(type),Chrome 78.0.3904.97,,2019-11-11 17:23:51,2019-11-11 17:23:52,1.148s,ERROR

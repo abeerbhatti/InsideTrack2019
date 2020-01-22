@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="FormsVerification" time="136.105" tests="3" failures="0" errors="0">
+   <testsuite name="FormsVerification" tests="3" failures="0" errors="0" time="136.105" timestamp="2019-11-22 17:14:43" hostname="abeerbhatti - 192.168.88.84" id="Test Suites/FormsVerification">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/abeerbhatti/Katalon Studio/InsideTrack-August2019/Reports/20191122_171430/FormsVerification/20191122_171430"/>
+         <property name="logFiles" value="/Users/abeerbhatti/Katalon Studio/InsideTrack-August2019/Reports/20191122_171430/FormsVerification/20191122_171430/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="abeerbhatti - 192.168.88.84"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="7.0.5.1"/>
+         <property name="browser" value="Chrome 78.0.3904.108"/>
+         <property name="hostAddress" value="192.168.88.84"/>
+         <property name="sessionId" value="7ce28c09336deeee5364324ff92987d1"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/requestRegisterationLink" time="15.388" classname="Test Cases/requestRegisterationLink" status="PASSED">
+         <system-out><![CDATA[2019-11-22 17:14:43 - [TEST_CASE][PASSED] - Test Cases/requestRegisterationLink: Test Cases/requestRegisterationLink
+
+2019-11-22 17:14:43 - [TEST_STEP][PASSED] - openBrowser("https://uptime-test.wisegateit.com/member/login/auth"): Browser is opened with url: 'https://uptime-test.wisegateit.com/member/login/auth'
+
+2019-11-22 17:14:44 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-11-22 17:14:44 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-11-22 17:14:51 - [MESSAGE][PASSED] - Browser is opened with url: 'https://uptime-test.wisegateit.com/member/login/auth'
+
+2019-11-22 17:14:51 - [TEST_STEP][PASSED] - click(findTestObject("RequestRegistrationLink/requestRegisterationLink")): Object: 'Object Repository/RequestRegistrationLink/requestRegisterationLink' is clicked on
+
+2019-11-22 17:14:53 - [MESSAGE][PASSED] - Object: 'Object Repository/RequestRegistrationLink/requestRegisterationLink' is clicked on
+
+2019-11-22 17:14:53 - [TEST_STEP][PASSED] - verifyTextPresent("Request Your Personal Registration Link!", false): Text 'Request Your Personal Registration Link!' is present on page 
+
+2019-11-22 17:14:53 - [MESSAGE][PASSED] - Text 'Request Your Personal Registration Link!' is present on page 
+
+2019-11-22 17:14:53 - [TEST_STEP][PASSED] - setText(findTestObject("RequestRegistrationLink/name"), "Test Name A"): Text 'Test Name A' is set on object 'Object Repository/RequestRegistrationLink/name'
+
+2019-11-22 17:14:54 - [MESSAGE][PASSED] - Text 'Test Name A' is set on object 'Object Repository/RequestRegistrationLink/name'
+
+2019-11-22 17:14:54 - [TEST_STEP][PASSED] - setText(findTestObject("RequestRegistrationLink/email"), "abeer.bhatti+TestNameA@conradlabs.com"): Text 'abeer.bhatti+TestNameA@conradlabs.com' is set on object 'Object Repository/RequestRegistrationLink/email'
+
+2019-11-22 17:14:55 - [MESSAGE][PASSED] - Text 'abeer.bhatti+TestNameA@conradlabs.com' is set on object 'Object Repository/RequestRegistrationLink/email'
+
+2019-11-22 17:14:55 - [TEST_STEP][PASSED] - setText(findTestObject("RequestRegistrationLink/title"), "Title for Test Name A"): Text 'Title for Test Name A' is set on object 'Object Repository/RequestRegistrationLink/title'
+
+2019-11-22 17:14:55 - [MESSAGE][PASSED] - Text 'Title for Test Name A' is set on object 'Object Repository/RequestRegistrationLink/title'
+
+2019-11-22 17:14:55 - [TEST_STEP][PASSED] - setText(findTestObject("RequestRegistrationLink/company"), "Company for Test Name A"): Text 'Company for Test Name A' is set on object 'Object Repository/RequestRegistrationLink/company'
+
+2019-11-22 17:14:56 - [MESSAGE][PASSED] - Text 'Company for Test Name A' is set on object 'Object Repository/RequestRegistrationLink/company'
+
+2019-11-22 17:14:56 - [TEST_STEP][PASSED] - expectedPlaceholder = "Please send my registration link for Uptime Institute.": null
+
+2019-11-22 17:14:56 - [TEST_STEP][PASSED] - placeholder = getText(findTestObject("RequestRegistrationLink/message")): Text of object 'Object Repository/RequestRegistrationLink/message' is: 'Please send my registration link for Uptime Institute.'
+
+2019-11-22 17:14:56 - [MESSAGE][PASSED] - Text of object 'Object Repository/RequestRegistrationLink/message' is: 'Please send my registration link for Uptime Institute.'
+
+2019-11-22 17:14:56 - [TEST_STEP][PASSED] - if (expectedPlaceholder != placeholder): null
+
+2019-11-22 17:14:56 - [TEST_STEP][PASSED] - verifyTextPresent("Or, call Member Services at (240) 200-3987", false): Text 'Or, call Member Services at (240) 200-3987' is present on page 
+
+2019-11-22 17:14:56 - [MESSAGE][PASSED] - Text 'Or, call Member Services at (240) 200-3987' is present on page 
+
+2019-11-22 17:14:56 - [TEST_STEP][PASSED] - click(findTestObject("RequestRegistrationLink/submitBtn")): Object: 'Object Repository/RequestRegistrationLink/submitBtn' is clicked on
+
+2019-11-22 17:14:58 - [MESSAGE][PASSED] - Object: 'Object Repository/RequestRegistrationLink/submitBtn' is clicked on
+
+2019-11-22 17:14:58 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("RequestRegistrationLink/successRegistrationLink"), 2): Object 'Object Repository/RequestRegistrationLink/successRegistrationLink' is present
+
+2019-11-22 17:14:58 - [MESSAGE][PASSED] - Object 'Object Repository/RequestRegistrationLink/successRegistrationLink' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/feedbackForm" time="66.669" classname="Test Cases/feedbackForm" status="PASSED">
+         <system-out><![CDATA[2019-11-22 17:14:58 - [TEST_CASE][PASSED] - Test Cases/feedbackForm: Test Cases/feedbackForm
+
+2019-11-22 17:14:59 - [TEST_STEP][PASSED] - openBrowser("https://uptime-test.wisegateit.com/member/login/auth"): Browser is opened with url: 'https://uptime-test.wisegateit.com/member/login/auth'
+
+2019-11-22 17:14:59 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-11-22 17:14:59 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-11-22 17:15:04 - [MESSAGE][PASSED] - Browser is opened with url: 'https://uptime-test.wisegateit.com/member/login/auth'
+
+2019-11-22 17:15:04 - [TEST_STEP][PASSED] - personas.userPersonas.loginUptimeGeneralUser(): personas.userPersonas.loginUptimeGeneralUser is PASSED
+
+2019-11-22 17:15:04 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-11-22 17:15:04 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-11-22 17:15:09 - [MESSAGE][PASSED] - Browser is opened with url: 'https://uptime-test.wisegateit.com/member/login/auth'
+
+2019-11-22 17:15:10 - [MESSAGE][PASSED] - Text 'abeer.bhatti+sabraitis@conradlabs.com' is set on object 'Object Repository/Login/Username'
+
+2019-11-22 17:15:10 - [MESSAGE][PASSED] - Text 'w1seg@te' is set on object 'Object Repository/Login/Password'
+
+2019-11-22 17:15:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Loginbtn' is clicked on
+
+2019-11-22 17:15:35 - [MESSAGE][PASSED] - personas.userPersonas.loginUptimeGeneralUser is PASSED
+
+2019-11-22 17:15:35 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("contactMemberServices/memberServicesLink"), 3): Scroll to object 'Object Repository/contactMemberServices/memberServicesLink' successfully
+
+2019-11-22 17:15:35 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/contactMemberServices/memberServicesLink' successfully
+
+2019-11-22 17:15:35 - [TEST_STEP][PASSED] - click(findTestObject("contactMemberServices/memberServicesLink")): Object: 'Object Repository/contactMemberServices/memberServicesLink' is clicked on
+
+2019-11-22 17:15:48 - [MESSAGE][PASSED] - Object: 'Object Repository/contactMemberServices/memberServicesLink' is clicked on
+
+2019-11-22 17:15:48 - [TEST_STEP][PASSED] - verifyTextPresent("We'd like to hear from you!", false): Text 'We'd like to hear from you!' is present on page 
+
+2019-11-22 17:15:49 - [MESSAGE][PASSED] - Text 'We'd like to hear from you!' is present on page 
+
+2019-11-22 17:15:49 - [TEST_STEP][PASSED] - verifyTextPresent("Or, call Member Services at (240) 200-3987", false): Text 'Or, call Member Services at (240) 200-3987' is present on page 
+
+2019-11-22 17:15:49 - [MESSAGE][PASSED] - Text 'Or, call Member Services at (240) 200-3987' is present on page 
+
+2019-11-22 17:15:49 - [TEST_STEP][PASSED] - setText(findTestObject("contactMemberServices/subject"), "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed bibendum consequat rutrum. Nam porta volutpat enim, sed hendrerit lorem blandit nec."): Text 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed bibendum consequat rutrum. Nam porta volutpat enim, sed hendrerit lorem blandit nec.' is set on object 'Object Repository/contactMemberServices/subject'
+
+2019-11-22 17:15:50 - [MESSAGE][PASSED] - Text 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed bibendum consequat rutrum. Nam porta volutpat enim, sed hendrerit lorem blandit nec.' is set on object 'Object Repository/contactMemberServices/subject'
+
+2019-11-22 17:15:50 - [TEST_STEP][PASSED] - setText(findTestObject("contactMemberServices/message"), "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed bibendum consequat rutrum. Nam porta volutpat enim, sed hendrerit lorem blandit nec. Nam blandit a elit dignissim faucibus. Donec iaculis arcu a nulla placerat viverra. Vestibulum mollis, justo sit amet sagittis rutrum, sapien metus iaculis ex, vel egestas ex mauris quis velit. Cras vestibulum nunc a est pharetra maximus at a nisl. Morbi euismod lectus quis eros maximus, non molestie magna fermentum. Aliquam et massa ligula. Nullam tellus lorem, rhoncus sit amet est vitae, sodales pretium lorem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Duis a enim id ex hendrerit egestas. Suspendisse in fringilla elit."): Text 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed bibendum consequat rutrum. Nam porta volutpat enim, sed hendrerit lorem blandit nec. Nam blandit a elit dignissim faucibus. Donec iaculis arcu a nulla placerat viverra. Vestibulum mollis, justo sit amet sagittis rutrum, sapien metus iaculis ex, vel egestas ex mauris quis velit. Cras vestibulum nunc a est pharetra maximus at a nisl. Morbi euismod lectus quis eros maximus, non molestie magna fermentum. Aliquam et massa ligula. Nullam tellus lorem, rhoncus sit amet est vitae, sodales pretium lorem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Duis a enim id ex hendrerit egestas. Suspendisse in fringilla elit.' is set on object 'Object Repository/contactMemberServices/message'
+
+2019-11-22 17:15:52 - [MESSAGE][PASSED] - Text 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed bibendum consequat rutrum. Nam porta volutpat enim, sed hendrerit lorem blandit nec. Nam blandit a elit dignissim faucibus. Donec iaculis arcu a nulla placerat viverra. Vestibulum mollis, justo sit amet sagittis rutrum, sapien metus iaculis ex, vel egestas ex mauris quis velit. Cras vestibulum nunc a est pharetra maximus at a nisl. Morbi euismod lectus quis eros maximus, non molestie magna fermentum. Aliquam et massa ligula. Nullam tellus lorem, rhoncus sit amet est vitae, sodales pretium lorem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Duis a enim id ex hendrerit egestas. Suspendisse in fringilla elit.' is set on object 'Object Repository/contactMemberServices/message'
+
+2019-11-22 17:15:52 - [TEST_STEP][PASSED] - click(findTestObject("contactMemberServices/sendBtn")): Object: 'Object Repository/contactMemberServices/sendBtn' is clicked on
+
+2019-11-22 17:16:05 - [MESSAGE][PASSED] - Object: 'Object Repository/contactMemberServices/sendBtn' is clicked on
+
+2019-11-22 17:16:05 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("contactMemberServices/successFeedback"), 2): Object 'Object Repository/contactMemberServices/successFeedback' is present
+
+2019-11-22 17:16:05 - [MESSAGE][PASSED] - Object 'Object Repository/contactMemberServices/successFeedback' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/referYourColleague" time="53.531" classname="Test Cases/referYourColleague" status="PASSED">
+         <system-out><![CDATA[2019-11-22 17:16:05 - [TEST_CASE][PASSED] - Test Cases/referYourColleague: Test Cases/referYourColleague
+
+2019-11-22 17:16:05 - [TEST_STEP][PASSED] - openBrowser("https://uptime-test.wisegateit.com/member/login/auth"): Browser is opened with url: 'https://uptime-test.wisegateit.com/member/login/auth'
+
+2019-11-22 17:16:05 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-11-22 17:16:05 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-11-22 17:16:10 - [MESSAGE][PASSED] - Browser is opened with url: 'https://uptime-test.wisegateit.com/member/login/auth'
+
+2019-11-22 17:16:10 - [TEST_STEP][PASSED] - personas.userPersonas.loginUptimeGeneralUser(): personas.userPersonas.loginUptimeGeneralUser is PASSED
+
+2019-11-22 17:16:10 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-11-22 17:16:10 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-11-22 17:16:15 - [MESSAGE][PASSED] - Browser is opened with url: 'https://uptime-test.wisegateit.com/member/login/auth'
+
+2019-11-22 17:16:15 - [MESSAGE][PASSED] - Text 'abeer.bhatti+sabraitis@conradlabs.com' is set on object 'Object Repository/Login/Username'
+
+2019-11-22 17:16:16 - [MESSAGE][PASSED] - Text 'w1seg@te' is set on object 'Object Repository/Login/Password'
+
+2019-11-22 17:16:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Loginbtn' is clicked on
+
+2019-11-22 17:16:38 - [MESSAGE][PASSED] - personas.userPersonas.loginUptimeGeneralUser is PASSED
+
+2019-11-22 17:16:38 - [TEST_STEP][PASSED] - click(findTestObject("HomePage/memberLink")): Object: 'Object Repository/HomePage/memberLink' is clicked on
+
+2019-11-22 17:16:50 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/memberLink' is clicked on
+
+2019-11-22 17:16:50 - [TEST_STEP][PASSED] - verifyTextPresent("All Members", false): Text 'All Members' is present on page 
+
+2019-11-22 17:16:52 - [MESSAGE][PASSED] - Text 'All Members' is present on page 
+
+2019-11-22 17:16:52 - [TEST_STEP][PASSED] - click(findTestObject("referYourColleague/referaColleaguelink")): Object: 'Object Repository/referYourColleague/referaColleaguelink' is clicked on
+
+2019-11-22 17:16:54 - [MESSAGE][PASSED] - Object: 'Object Repository/referYourColleague/referaColleaguelink' is clicked on
+
+2019-11-22 17:16:54 - [TEST_STEP][PASSED] - verifyTextPresent("Refer Your Colleagues to Inside Track!", false): Text 'Refer Your Colleagues to Inside Track!' is present on page 
+
+2019-11-22 17:16:54 - [MESSAGE][PASSED] - Text 'Refer Your Colleagues to Inside Track!' is present on page 
+
+2019-11-22 17:16:54 - [TEST_STEP][PASSED] - expectedPlaceholder = "Please list names, email addresses, and titles of colleagues you would like to refer.": null
+
+2019-11-22 17:16:54 - [TEST_STEP][PASSED] - placeholdercurrent = getAttribute(findTestObject("referYourColleague/requestedNames"), "placeholder"): Attribute 'placeholder' of object 'Object Repository/referYourColleague/requestedNames' is: 'Please list names, email addresses, and titles of colleagues you would like to refer.'
+
+2019-11-22 17:16:55 - [MESSAGE][PASSED] - Attribute 'placeholder' of object 'Object Repository/referYourColleague/requestedNames' is: 'Please list names, email addresses, and titles of colleagues you would like to refer.'
+
+2019-11-22 17:16:55 - [TEST_STEP][PASSED] - if (expectedPlaceholder != placeholdercurrent): null
+
+2019-11-22 17:16:55 - [TEST_STEP][PASSED] - verifyMatch(placeholdercurrent, expectedPlaceholder, false): Actual text 'Please list names, email addresses, and titles of colleagues you would like to refer.' and expected text 'Please list names, email addresses, and titles of colleagues you would like to refer.' are matched 
+
+2019-11-22 17:16:55 - [MESSAGE][PASSED] - Actual text 'Please list names, email addresses, and titles of colleagues you would like to refer.' and expected text 'Please list names, email addresses, and titles of colleagues you would like to refer.' are matched 
+
+2019-11-22 17:16:55 - [TEST_STEP][PASSED] - Message = "Please provide an Inside Track registration link to the names, emails and titles listed above.": null
+
+2019-11-22 17:16:55 - [TEST_STEP][PASSED] - placeholderMessage = getText(findTestObject("referYourColleague/message")): Text of object 'Object Repository/referYourColleague/message' is: 'Please provide an Inside Track registration link to the names, emails and titles listed above.'
+
+2019-11-22 17:16:55 - [MESSAGE][PASSED] - Text of object 'Object Repository/referYourColleague/message' is: 'Please provide an Inside Track registration link to the names, emails and titles listed above.'
+
+2019-11-22 17:16:55 - [TEST_STEP][PASSED] - verifyMatch(Message, placeholderMessage, false): Actual text 'Please provide an Inside Track registration link to the names, emails and titles listed above.' and expected text 'Please provide an Inside Track registration link to the names, emails and titles listed above.' are matched 
+
+2019-11-22 17:16:55 - [MESSAGE][PASSED] - Actual text 'Please provide an Inside Track registration link to the names, emails and titles listed above.' and expected text 'Please provide an Inside Track registration link to the names, emails and titles listed above.' are matched 
+
+2019-11-22 17:16:55 - [TEST_STEP][PASSED] - setText(findTestObject("referYourColleague/requestedNames"), "Name 1:abcd"): Text 'Name 1:abcd' is set on object 'Object Repository/referYourColleague/requestedNames'
+
+2019-11-22 17:16:55 - [MESSAGE][PASSED] - Text 'Name 1:abcd' is set on object 'Object Repository/referYourColleague/requestedNames'
+
+2019-11-22 17:16:55 - [TEST_STEP][PASSED] - sendKeys(findTestObject("referYourColleague/requestedNames"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/referYourColleague/requestedNames'
+
+2019-11-22 17:16:56 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/referYourColleague/requestedNames'
+
+2019-11-22 17:16:56 - [TEST_STEP][PASSED] - sendKeys(findTestObject("referYourColleague/requestedNames"), "Name 2:xyz"): Keys 'Name 2:xyz' sent to object: 'Object Repository/referYourColleague/requestedNames'
+
+2019-11-22 17:16:56 - [MESSAGE][PASSED] - Keys 'Name 2:xyz' sent to object: 'Object Repository/referYourColleague/requestedNames'
+
+2019-11-22 17:16:56 - [TEST_STEP][PASSED] - sendKeys(findTestObject("referYourColleague/requestedNames"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/referYourColleague/requestedNames'
+
+2019-11-22 17:16:57 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/referYourColleague/requestedNames'
+
+2019-11-22 17:16:57 - [TEST_STEP][PASSED] - sendKeys(findTestObject("referYourColleague/requestedNames"), "Name 3:efg"): Keys 'Name 3:efg' sent to object: 'Object Repository/referYourColleague/requestedNames'
+
+2019-11-22 17:16:57 - [MESSAGE][PASSED] - Keys 'Name 3:efg' sent to object: 'Object Repository/referYourColleague/requestedNames'
+
+2019-11-22 17:16:57 - [TEST_STEP][PASSED] - click(findTestObject("referYourColleague/submitBtn")): Object: 'Object Repository/referYourColleague/submitBtn' is clicked on
+
+2019-11-22 17:16:58 - [MESSAGE][PASSED] - Object: 'Object Repository/referYourColleague/submitBtn' is clicked on
+
+2019-11-22 17:16:58 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("referYourColleague/successReferYourColleagues"), 2): Object 'Object Repository/referYourColleague/successReferYourColleagues' is present
+
+2019-11-22 17:16:59 - [MESSAGE][PASSED] - Object 'Object Repository/referYourColleague/successReferYourColleagues' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-11-22 17:14:43 - [TEST_SUITE][PASSED] - FormsVerification: Test Cases/referYourColleague]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,51 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+FormsVerification,Chrome 76.0.3809.100,,2019-08-21 16:12:18,2019-08-21 16:14:05,1m - 46.737s,PASSED
+,,,,,,
+Test Cases/requestRegisterationLink,Chrome 76.0.3809.100,,2019-08-21 16:12:19,2019-08-21 16:12:28,9.436s,PASSED
+"openBrowser(""https://uptime-test.wisegateit.com/member/login/auth"")",Chrome 76.0.3809.100,,2019-08-21 16:12:19,2019-08-21 16:12:25,5.761s,PASSED
+"click(findTestObject(""RequestRegistrationLink/requestRegisterationLink""))",Chrome 76.0.3809.100,,2019-08-21 16:12:25,2019-08-21 16:12:26,1.388s,PASSED
+"verifyTextPresent(""Request Your Personal Registration Link!"", false)",Chrome 76.0.3809.100,,2019-08-21 16:12:26,2019-08-21 16:12:26,0.057s,PASSED
+"setText(findTestObject(""RequestRegistrationLink/name""), ""Test Name A"")",Chrome 76.0.3809.100,,2019-08-21 16:12:26,2019-08-21 16:12:26,0.177s,PASSED
+"setText(findTestObject(""RequestRegistrationLink/email""), ""abeer.bhatti+TestNameA@conradlabs.com"")",Chrome 76.0.3809.100,,2019-08-21 16:12:26,2019-08-21 16:12:27,0.179s,PASSED
+"setText(findTestObject(""RequestRegistrationLink/title""), ""Title for Test Name A"")",Chrome 76.0.3809.100,,2019-08-21 16:12:27,2019-08-21 16:12:27,0.138s,PASSED
+"setText(findTestObject(""RequestRegistrationLink/company""), ""Company for Test Name A"")",Chrome 76.0.3809.100,,2019-08-21 16:12:27,2019-08-21 16:12:27,0.142s,PASSED
+"expectedPlaceholder = ""Please send my registration link for Uptime Institute.""",Chrome 76.0.3809.100,,2019-08-21 16:12:27,2019-08-21 16:12:27,0.002s,PASSED
+"placeholder = getText(findTestObject(""RequestRegistrationLink/message""))",Chrome 76.0.3809.100,,2019-08-21 16:12:27,2019-08-21 16:12:27,0.057s,PASSED
+if (expectedPlaceholder != placeholder),Chrome 76.0.3809.100,,2019-08-21 16:12:27,2019-08-21 16:12:27,0.001s,PASSED
+"verifyTextPresent(""Or, call Member Services at 212-505-3030 ext. 194"", false)",Chrome 76.0.3809.100,,2019-08-21 16:12:27,2019-08-21 16:12:27,0.041s,PASSED
+"click(findTestObject(""RequestRegistrationLink/submitBtn""))",Chrome 76.0.3809.100,,2019-08-21 16:12:27,2019-08-21 16:12:28,1.081s,PASSED
+"verifyElementPresent(findTestObject(""RequestRegistrationLink/successRegistrationLink""), 2)",Chrome 76.0.3809.100,,2019-08-21 16:12:28,2019-08-21 16:12:28,0.030s,PASSED
+,,,,,,
+Test Cases/feedbackForm,Chrome 76.0.3809.100,,2019-08-21 16:12:28,2019-08-21 16:13:25,56.673s,PASSED
+"openBrowser(""https://uptime-test.wisegateit.com/member/login/auth"")",Chrome 76.0.3809.100,,2019-08-21 16:12:28,2019-08-21 16:12:33,4.195s,PASSED
+packageA.KeywordsA.loginUptimeGeneralUser(),Chrome 76.0.3809.100,,2019-08-21 16:12:33,2019-08-21 16:12:51,18.285s,PASSED
+"scrollToElement(findTestObject(""contactMemberServices/memberServicesLink""), 3)",Chrome 76.0.3809.100,,2019-08-21 16:12:51,2019-08-21 16:12:51,0.037s,PASSED
+"click(findTestObject(""contactMemberServices/memberServicesLink""))",Chrome 76.0.3809.100,,2019-08-21 16:12:51,2019-08-21 16:13:12,20.858s,PASSED
+"verifyTextPresent(""We'd like to hear from you!"", false)",Chrome 76.0.3809.100,,2019-08-21 16:13:12,2019-08-21 16:13:12,0.058s,PASSED
+"verifyTextPresent(""Or, call Member Services at 212-505-3030 ext. 194"", false)",Chrome 76.0.3809.100,,2019-08-21 16:13:12,2019-08-21 16:13:12,0.050s,PASSED
+"setText(findTestObject(""contactMemberServices/subject""), ""Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed bibendum consequat rutrum. Nam porta volutpat enim, sed hendrerit lorem blandit nec."")",Chrome 76.0.3809.100,,2019-08-21 16:13:12,2019-08-21 16:13:12,0.503s,PASSED
+"setText(findTestObject(""contactMemberServices/message""), ""Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed bibendum consequat rutrum. Nam porta volutpat enim, sed hendrerit lorem blandit nec. Nam blandit a elit dignissim faucibus. Donec iaculis arcu a nulla placerat viverra. Vestibulum mollis, justo sit amet sagittis rutrum, sapien metus iaculis ex, vel egestas ex mauris quis velit. Cras vestibulum nunc a est pharetra maximus at a nisl. Morbi euismod lectus quis eros maximus, non molestie magna fermentum. Aliquam et massa ligula. Nullam tellus lorem, rhoncus sit amet est vitae, sodales pretium lorem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Duis a enim id ex hendrerit egestas. Suspendisse in fringilla elit."")",Chrome 76.0.3809.100,,2019-08-21 16:13:12,2019-08-21 16:13:14,1.578s,PASSED
+"click(findTestObject(""contactMemberServices/sendBtn""))",Chrome 76.0.3809.100,,2019-08-21 16:13:14,2019-08-21 16:13:25,10.755s,PASSED
+"verifyElementPresent(findTestObject(""contactMemberServices/successFeedback""), 2)",Chrome 76.0.3809.100,,2019-08-21 16:13:25,2019-08-21 16:13:25,0.018s,PASSED
+,,,,,,
+Test Cases/referYourColleague,Chrome 76.0.3809.100,,2019-08-21 16:13:25,2019-08-21 16:14:05,40.233s,PASSED
+"openBrowser(""https://uptime-test.wisegateit.com/member/login/auth"")",Chrome 76.0.3809.100,,2019-08-21 16:13:25,2019-08-21 16:13:30,4.691s,PASSED
+packageA.KeywordsA.loginUptimeGeneralUser(),Chrome 76.0.3809.100,,2019-08-21 16:13:30,2019-08-21 16:13:47,16.922s,PASSED
+"click(findTestObject(""referYourColleague/memberLink""))",Chrome 76.0.3809.100,,2019-08-21 16:13:47,2019-08-21 16:14:02,15.821s,PASSED
+"verifyTextPresent(""All Members"", false)",Chrome 76.0.3809.100,,2019-08-21 16:14:02,2019-08-21 16:14:03,0.114s,PASSED
+"click(findTestObject(""referYourColleague/referaColleaguelink""))",Chrome 76.0.3809.100,,2019-08-21 16:14:03,2019-08-21 16:14:04,0.979s,PASSED
+"verifyTextPresent(""Refer Your Colleagues to Inside Track!"", false)",Chrome 76.0.3809.100,,2019-08-21 16:14:04,2019-08-21 16:14:04,0.037s,PASSED
+"expectedPlaceholder = ""Please list names, email addresses, and titles of colleagues you would like to refer.""",Chrome 76.0.3809.100,,2019-08-21 16:14:04,2019-08-21 16:14:04,0.001s,PASSED
+"placeholdercurrent = getAttribute(findTestObject(""referYourColleague/requestedNames""), ""placeholder"")",Chrome 76.0.3809.100,,2019-08-21 16:14:04,2019-08-21 16:14:04,0.035s,PASSED
+if (expectedPlaceholder != placeholdercurrent),Chrome 76.0.3809.100,,2019-08-21 16:14:04,2019-08-21 16:14:04,0.000s,PASSED
+"verifyMatch(placeholdercurrent, expectedPlaceholder, false)",Chrome 76.0.3809.100,,2019-08-21 16:14:04,2019-08-21 16:14:04,0.027s,PASSED
+"Message = ""Please provide an Inside Track registration link to the names, emails and titles listed above.""",Chrome 76.0.3809.100,,2019-08-21 16:14:04,2019-08-21 16:14:04,0.003s,PASSED
+"placeholderMessage = getText(findTestObject(""referYourColleague/message""))",Chrome 76.0.3809.100,,2019-08-21 16:14:04,2019-08-21 16:14:04,0.034s,PASSED
+"verifyMatch(Message, placeholderMessage, false)",Chrome 76.0.3809.100,,2019-08-21 16:14:04,2019-08-21 16:14:04,0.002s,PASSED
+"setText(findTestObject(""referYourColleague/requestedNames""), ""Name 1:abcd"")",Chrome 76.0.3809.100,,2019-08-21 16:14:04,2019-08-21 16:14:04,0.089s,PASSED
+"sendKeys(findTestObject(""referYourColleague/requestedNames""), Keys.chord(ENTER))",Chrome 76.0.3809.100,,2019-08-21 16:14:04,2019-08-21 16:14:04,0.048s,PASSED
+"sendKeys(findTestObject(""referYourColleague/requestedNames""), ""Name 2:xyz"")",Chrome 76.0.3809.100,,2019-08-21 16:14:04,2019-08-21 16:14:04,0.051s,PASSED
+"sendKeys(findTestObject(""referYourColleague/requestedNames""), Keys.chord(ENTER))",Chrome 76.0.3809.100,,2019-08-21 16:14:04,2019-08-21 16:14:04,0.034s,PASSED
+"sendKeys(findTestObject(""referYourColleague/requestedNames""), ""Name 3:efg"")",Chrome 76.0.3809.100,,2019-08-21 16:14:04,2019-08-21 16:14:04,0.049s,PASSED
+"click(findTestObject(""referYourColleague/submitBtn""))",Chrome 76.0.3809.100,,2019-08-21 16:14:04,2019-08-21 16:14:05,1.100s,PASSED
+"verifyElementPresent(findTestObject(""referYourColleague/successReferYourColleagues""), 2)",Chrome 76.0.3809.100,,2019-08-21 16:14:05,2019-08-21 16:14:05,0.018s,PASSED

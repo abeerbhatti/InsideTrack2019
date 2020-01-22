@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ContentCreation" time="469.926" tests="5" failures="0" errors="0">
+   <testsuite name="ContentCreation" tests="5" failures="0" errors="0" time="469.926" timestamp="2019-11-22 18:03:45" hostname="abeerbhatti - 192.168.88.84" id="Test Suites/ContentCreation">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/abeerbhatti/Katalon Studio/InsideTrack-August2019/Reports/20191122_180332/ContentCreation/20191122_180332"/>
+         <property name="logFiles" value="/Users/abeerbhatti/Katalon Studio/InsideTrack-August2019/Reports/20191122_180332/ContentCreation/20191122_180332/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="abeerbhatti - 192.168.88.84"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="7.0.5.1"/>
+         <property name="browser" value="Chrome 78.0.3904.108"/>
+         <property name="hostAddress" value="192.168.88.84"/>
+         <property name="sessionId" value="e955ca96ecec067899035d56b456621f"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/createQuestion" time="92.27" classname="Test Cases/createQuestion" status="PASSED">
+         <system-out><![CDATA[2019-11-22 18:03:45 - [TEST_CASE][PASSED] - Test Cases/createQuestion: Test Cases/createQuestion
+
+2019-11-22 18:03:46 - [TEST_STEP][PASSED] - personas.userPersonas.loginUptimeCommunityMgr(): personas.userPersonas.loginUptimeCommunityMgr is PASSED
+
+2019-11-22 18:03:46 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-11-22 18:03:46 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-11-22 18:03:53 - [MESSAGE][PASSED] - Browser is opened with url: 'https://uptime-test.wisegateit.com/member/login/auth'
+
+2019-11-22 18:03:54 - [MESSAGE][PASSED] - Text 'brock1' is set on object 'Object Repository/Login/Username'
+
+2019-11-22 18:03:55 - [MESSAGE][PASSED] - Text 'w1seg@te' is set on object 'Object Repository/Login/Password'
+
+2019-11-22 18:04:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Loginbtn' is clicked on
+
+2019-11-22 18:04:04 - [MESSAGE][PASSED] - personas.userPersonas.loginUptimeCommunityMgr is PASSED
+
+2019-11-22 18:04:04 - [TEST_STEP][PASSED] - insideTrack.Discussions.redirecttoQuestion(): insideTrack.Discussions.redirecttoQuestion is PASSED
+
+2019-11-22 18:04:08 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/discussionsLink' is clicked on
+
+2019-11-22 18:04:10 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-11-22 18:04:10 - [MESSAGE][PASSED] - Object: 'Object Repository/DiscussionsPage/Questions/continueBtn' is clicked on
+
+2019-11-22 18:04:10 - [MESSAGE][PASSED] - insideTrack.Discussions.redirecttoQuestion is PASSED
+
+2019-11-22 18:04:10 - [TEST_STEP][PASSED] - questionName = findTestData("Question").getValue("question", 1): null
+
+2019-11-22 18:04:10 - [TEST_STEP][PASSED] - questionDescription = findTestData("Question").getValue("questionDescription", 1): null
+
+2019-11-22 18:04:10 - [TEST_STEP][PASSED] - privateGroup = findTestData("Question").getValue("privateGroup", 1): null
+
+2019-11-22 18:04:10 - [TEST_STEP][PASSED] - categoryName = findTestData("Question").getValue("categoryName", 1): null
+
+2019-11-22 18:04:10 - [TEST_STEP][PASSED] - insideTrack.Discussions.setQuestionTitleandDetail(questionName, questionDescription): insideTrack.Discussions.setQuestionTitleandDetail is PASSED
+
+2019-11-22 18:04:12 - [MESSAGE][PASSED] - Text 'Question1-221119' is set on object 'Object Repository/DiscussionsPage/Questions/questionName'
+
+2019-11-22 18:04:13 - [MESSAGE][PASSED] - Text 'Question1-221119 Summary' is set on object 'Object Repository/DiscussionsPage/Questions/questionDescription'
+
+2019-11-22 18:04:13 - [MESSAGE][PASSED] - insideTrack.Discussions.setQuestionTitleandDetail is PASSED
+
+2019-11-22 18:04:13 - [TEST_STEP][PASSED] - insideTrack.Content.setVisibility(privateGroup): insideTrack.Content.setVisibility is PASSED
+
+2019-11-22 18:04:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-11-22 18:04:14 - [MESSAGE][PASSED] - insideTrack.Content.setVisibility is PASSED
+
+2019-11-22 18:04:14 - [TEST_STEP][PASSED] - insideTrack.Content.setCategories(categoryName): insideTrack.Content.setCategories is PASSED
+
+2019-11-22 18:04:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-11-22 18:04:17 - [MESSAGE][PASSED] - insideTrack.Content.setCategories is PASSED
+
+2019-11-22 18:04:17 - [TEST_STEP][PASSED] - insideTrack.Discussions.discussionClickPreviewandPost(): insideTrack.Discussions.discussionClickPreviewandPost is PASSED
+
+2019-11-22 18:04:17 - [MESSAGE][PASSED] - Object: 'Object Repository/DiscussionsPage/Common/previewBtn' is clicked on
+
+2019-11-22 18:04:19 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-11-22 18:04:20 - [MESSAGE][PASSED] - Object: 'Object Repository/DiscussionsPage/Common/Postbtn' is clicked on
+
+2019-11-22 18:04:22 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-11-22 18:05:14 - [MESSAGE][PASSED] - Object 'Object Repository/DiscussionsPage/Common/Savingbtn' is NOT visible
+
+2019-11-22 18:05:14 - [MESSAGE][PASSED] - insideTrack.Discussions.discussionClickPreviewandPost is PASSED
+
+2019-11-22 18:05:14 - [TEST_STEP][PASSED] - insideTrack.Discussions.verifyQuestionSuccess(): insideTrack.Discussions.verifyQuestionSuccess is PASSED
+
+2019-11-22 18:05:16 - [MESSAGE][PASSED] - Object 'Object Repository/DiscussionsPage/Questions/successMsgQuestion' is present
+
+2019-11-22 18:05:17 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-11-22 18:05:18 - [MESSAGE][PASSED] - Object: 'Object Repository/DiscussionsPage/Questions/crossSuccessMsg' is clicked on
+
+2019-11-22 18:05:18 - [MESSAGE][PASSED] - insideTrack.Discussions.verifyQuestionSuccess is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/createPoll" time="95.718" classname="Test Cases/createPoll" status="PASSED">
+         <system-out><![CDATA[2019-11-22 18:05:18 - [TEST_CASE][PASSED] - Test Cases/createPoll: Test Cases/createPoll
+
+2019-11-22 18:05:18 - [TEST_STEP][PASSED] - personas.userPersonas.loginUptimeCommunityMgr(): personas.userPersonas.loginUptimeCommunityMgr is PASSED
+
+2019-11-22 18:05:18 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-11-22 18:05:18 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-11-22 18:05:22 - [MESSAGE][PASSED] - Browser is opened with url: 'https://uptime-test.wisegateit.com/member/login/auth'
+
+2019-11-22 18:05:23 - [MESSAGE][PASSED] - Text 'brock1' is set on object 'Object Repository/Login/Username'
+
+2019-11-22 18:05:23 - [MESSAGE][PASSED] - Text 'w1seg@te' is set on object 'Object Repository/Login/Password'
+
+2019-11-22 18:05:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Loginbtn' is clicked on
+
+2019-11-22 18:05:33 - [MESSAGE][PASSED] - personas.userPersonas.loginUptimeCommunityMgr is PASSED
+
+2019-11-22 18:05:33 - [TEST_STEP][PASSED] - insideTrack.Discussions.redirecttoPoll(): insideTrack.Discussions.redirecttoPoll is PASSED
+
+2019-11-22 18:05:37 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/discussionsLink' is clicked on
+
+2019-11-22 18:05:39 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-11-22 18:05:39 - [MESSAGE][PASSED] - Object 'Object Repository/DiscussionsPage/Polls/radioPoll' is checked
+
+2019-11-22 18:05:40 - [MESSAGE][PASSED] - Object: 'Object Repository/DiscussionsPage/Questions/continueBtn' is clicked on
+
+2019-11-22 18:05:40 - [MESSAGE][PASSED] - insideTrack.Discussions.redirecttoPoll is PASSED
+
+2019-11-22 18:05:40 - [TEST_STEP][PASSED] - pollName = findTestData("Polls").getValue("Poll", 1): null
+
+2019-11-22 18:05:40 - [TEST_STEP][PASSED] - pollDescription = findTestData("Polls").getValue("pollDescription", 1): null
+
+2019-11-22 18:05:40 - [TEST_STEP][PASSED] - optionA = findTestData("Polls").getValue("Answer1", 1): null
+
+2019-11-22 18:05:40 - [TEST_STEP][PASSED] - optionB = findTestData("Polls").getValue("Answer2", 1): null
+
+2019-11-22 18:05:40 - [TEST_STEP][PASSED] - optionC = findTestData("Polls").getValue("Answer3", 1): null
+
+2019-11-22 18:05:40 - [TEST_STEP][PASSED] - privateGroup = findTestData("Polls").getValue("privateGroup", 1): null
+
+2019-11-22 18:05:40 - [TEST_STEP][PASSED] - categoryName = findTestData("Polls").getValue("categoryName", 1): null
+
+2019-11-22 18:05:40 - [TEST_STEP][PASSED] - insideTrack.Discussions.setPollTitleandDetail(pollName, pollDescription): insideTrack.Discussions.setPollTitleandDetail is PASSED
+
+2019-11-22 18:05:41 - [MESSAGE][PASSED] - Text 'Poll1-221119' is set on object 'Object Repository/DiscussionsPage/Polls/pollName'
+
+2019-11-22 18:05:42 - [MESSAGE][PASSED] - Text 'Poll1-221119' is set on object 'Object Repository/DiscussionsPage/Polls/pollDescription'
+
+2019-11-22 18:05:42 - [MESSAGE][PASSED] - insideTrack.Discussions.setPollTitleandDetail is PASSED
+
+2019-11-22 18:05:42 - [TEST_STEP][PASSED] - insideTrack.Discussions.setOptionsForPolls(optionA, optionB, optionC): insideTrack.Discussions.setOptionsForPolls is PASSED
+
+2019-11-22 18:05:42 - [MESSAGE][PASSED] - Text 'A' is set on object 'Object Repository/DiscussionsPage/Polls/answer1Poll'
+
+2019-11-22 18:05:43 - [MESSAGE][PASSED] - Text 'B' is set on object 'Object Repository/DiscussionsPage/Polls/answer2Poll'
+
+2019-11-22 18:05:43 - [MESSAGE][PASSED] - Text 'C' is set on object 'Object Repository/DiscussionsPage/Polls/answer3Poll'
+
+2019-11-22 18:05:43 - [MESSAGE][PASSED] - insideTrack.Discussions.setOptionsForPolls is PASSED
+
+2019-11-22 18:05:43 - [TEST_STEP][PASSED] - insideTrack.Content.setVisibility(privateGroup): insideTrack.Content.setVisibility is PASSED
+
+2019-11-22 18:05:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-11-22 18:05:45 - [MESSAGE][PASSED] - insideTrack.Content.setVisibility is PASSED
+
+2019-11-22 18:05:45 - [TEST_STEP][PASSED] - insideTrack.Content.setCategories(categoryName): insideTrack.Content.setCategories is PASSED
+
+2019-11-22 18:05:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-11-22 18:05:47 - [MESSAGE][PASSED] - insideTrack.Content.setCategories is PASSED
+
+2019-11-22 18:05:47 - [TEST_STEP][PASSED] - insideTrack.Discussions.discussionClickPreviewandPost(): insideTrack.Discussions.discussionClickPreviewandPost is PASSED
+
+2019-11-22 18:05:48 - [MESSAGE][PASSED] - Object: 'Object Repository/DiscussionsPage/Common/previewBtn' is clicked on
+
+2019-11-22 18:05:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-11-22 18:05:50 - [MESSAGE][PASSED] - Object: 'Object Repository/DiscussionsPage/Common/Postbtn' is clicked on
+
+2019-11-22 18:05:52 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-11-22 18:06:43 - [MESSAGE][PASSED] - Object 'Object Repository/DiscussionsPage/Common/Savingbtn' is NOT visible
+
+2019-11-22 18:06:43 - [MESSAGE][PASSED] - insideTrack.Discussions.discussionClickPreviewandPost is PASSED
+
+2019-11-22 18:06:43 - [TEST_STEP][PASSED] - insideTrack.Discussions.verifyPollSuccess(): insideTrack.Discussions.verifyPollSuccess is PASSED
+
+2019-11-22 18:06:45 - [MESSAGE][PASSED] - Object 'Object Repository/DiscussionsPage/Polls/successMsgPoll' is present
+
+2019-11-22 18:06:45 - [MESSAGE][PASSED] - Object: 'Object Repository/DiscussionsPage/Polls/crossSuccessMsg' is clicked on
+
+2019-11-22 18:06:50 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-11-22 18:06:50 - [MESSAGE][PASSED] - insideTrack.Discussions.verifyPollSuccess is PASSED
+
+2019-11-22 18:06:50 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+2019-11-22 18:06:53 - [MESSAGE][PASSED] - Refresh successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/createAnnouncement" time="53.633" classname="Test Cases/createAnnouncement" status="PASSED">
+         <system-out><![CDATA[2019-11-22 18:06:53 - [TEST_CASE][PASSED] - Test Cases/createAnnouncement: Test Cases/createAnnouncement
+
+2019-11-22 18:06:54 - [TEST_STEP][PASSED] - personas.userPersonas.loginUptimeCommunityMgr(): personas.userPersonas.loginUptimeCommunityMgr is PASSED
+
+2019-11-22 18:06:54 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-11-22 18:06:54 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-11-22 18:06:59 - [MESSAGE][PASSED] - Browser is opened with url: 'https://uptime-test.wisegateit.com/member/login/auth'
+
+2019-11-22 18:06:59 - [MESSAGE][PASSED] - Text 'brock1' is set on object 'Object Repository/Login/Username'
+
+2019-11-22 18:06:59 - [MESSAGE][PASSED] - Text 'w1seg@te' is set on object 'Object Repository/Login/Password'
+
+2019-11-22 18:07:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Loginbtn' is clicked on
+
+2019-11-22 18:07:12 - [MESSAGE][PASSED] - personas.userPersonas.loginUptimeCommunityMgr is PASSED
+
+2019-11-22 18:07:12 - [TEST_STEP][PASSED] - insideTrack.Announcement.redirecttoAnnouncement(): insideTrack.Announcement.redirecttoAnnouncement is PASSED
+
+2019-11-22 18:07:18 - [MESSAGE][PASSED] - Navigate to 'https://uptime-test.wisegateit.com/member/announcement/list' successfully
+
+2019-11-22 18:07:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Announcements/addNewAnnouncement' is clicked on
+
+2019-11-22 18:07:26 - [MESSAGE][PASSED] - Text 'Enter an Announcement' is present on page 
+
+2019-11-22 18:07:26 - [MESSAGE][PASSED] - insideTrack.Announcement.redirecttoAnnouncement is PASSED
+
+2019-11-22 18:07:26 - [TEST_STEP][PASSED] - announcementtitle = findTestData("Announcements").getValue("announcement", 2): null
+
+2019-11-22 18:07:26 - [TEST_STEP][PASSED] - announcementDescription = findTestData("Announcements").getValue("announcementDescription", 2): null
+
+2019-11-22 18:07:26 - [TEST_STEP][PASSED] - region = findTestData("Announcements").getValue("region", 2): null
+
+2019-11-22 18:07:26 - [TEST_STEP][PASSED] - type = findTestData("Announcements").getValue("Type", 2): null
+
+2019-11-22 18:07:26 - [TEST_STEP][PASSED] - privateGroup = findTestData("Announcements").getValue("privateGroup", 2): null
+
+2019-11-22 18:07:26 - [TEST_STEP][PASSED] - insideTrack.Announcement.setAnnouncementTitleandDescription(announcementtitle, announcementDescription): insideTrack.Announcement.setAnnouncementTitleandDescription is PASSED
+
+2019-11-22 18:07:27 - [MESSAGE][PASSED] - Text 'Announcement2-221119' is set on object 'Object Repository/Announcements/titleAnnouncement'
+
+2019-11-22 18:07:27 - [MESSAGE][PASSED] - Text 'Announcement2-221119 Summary' is set on object 'Object Repository/Announcements/descriptionAnnouncement'
+
+2019-11-22 18:07:27 - [MESSAGE][PASSED] - insideTrack.Announcement.setAnnouncementTitleandDescription is PASSED
+
+2019-11-22 18:07:27 - [TEST_STEP][PASSED] - insideTrack.Announcement.setAnnouncementRegion(region): insideTrack.Announcement.setAnnouncementRegion is PASSED
+
+2019-11-22 18:07:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-11-22 18:07:29 - [MESSAGE][PASSED] - insideTrack.Announcement.setAnnouncementRegion is PASSED
+
+2019-11-22 18:07:29 - [TEST_STEP][PASSED] - insideTrack.Announcement.setAnnouncementType(type): insideTrack.Announcement.setAnnouncementType is PASSED
+
+2019-11-22 18:07:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-11-22 18:07:31 - [MESSAGE][PASSED] - insideTrack.Announcement.setAnnouncementType is PASSED
+
+2019-11-22 18:07:31 - [TEST_STEP][PASSED] - insideTrack.Announcement.setAnnouncementVisibility(privateGroup): insideTrack.Announcement.setAnnouncementVisibility is PASSED
+
+2019-11-22 18:07:33 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-11-22 18:07:33 - [MESSAGE][PASSED] - insideTrack.Announcement.setAnnouncementVisibility is PASSED
+
+2019-11-22 18:07:33 - [TEST_STEP][PASSED] - insideTrack.Announcement.postAnnouncement(): insideTrack.Announcement.postAnnouncement is PASSED
+
+2019-11-22 18:07:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Announcements/postBtn' is clicked on
+
+2019-11-22 18:07:40 - [MESSAGE][PASSED] - insideTrack.Announcement.postAnnouncement is PASSED
+
+2019-11-22 18:07:40 - [TEST_STEP][PASSED] - insideTrack.Announcement.verifyAnnouncementSuccess(): insideTrack.Announcement.verifyAnnouncementSuccess is PASSED
+
+2019-11-22 18:07:47 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@class='outer-content']/div/div[@class='msg msg-ok'][contains(text(), 'Announcement saved')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-11-22 18:07:47 - [MESSAGE][PASSED] - insideTrack.Announcement.verifyAnnouncementSuccess is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/createResourceFile" time="88.024" classname="Test Cases/createResourceFile" status="PASSED">
+         <system-out><![CDATA[2019-11-22 18:07:47 - [TEST_CASE][PASSED] - Test Cases/createResourceFile: Test Cases/createResourceFile
+
+2019-11-22 18:07:47 - [TEST_STEP][PASSED] - personas.userPersonas.loginUptimeCommunityMgr(): personas.userPersonas.loginUptimeCommunityMgr is PASSED
+
+2019-11-22 18:07:47 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-11-22 18:07:47 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-11-22 18:07:51 - [MESSAGE][PASSED] - Browser is opened with url: 'https://uptime-test.wisegateit.com/member/login/auth'
+
+2019-11-22 18:07:52 - [MESSAGE][PASSED] - Text 'brock1' is set on object 'Object Repository/Login/Username'
+
+2019-11-22 18:07:52 - [MESSAGE][PASSED] - Text 'w1seg@te' is set on object 'Object Repository/Login/Password'
+
+2019-11-22 18:07:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Loginbtn' is clicked on
+
+2019-11-22 18:07:59 - [MESSAGE][PASSED] - personas.userPersonas.loginUptimeCommunityMgr is PASSED
+
+2019-11-22 18:07:59 - [TEST_STEP][PASSED] - click(findTestObject("HomePage/resourcesLink")): Object: 'Object Repository/HomePage/resourcesLink' is clicked on
+
+2019-11-22 18:08:02 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/resourcesLink' is clicked on
+
+2019-11-22 18:08:02 - [TEST_STEP][PASSED] - resourceTitle = findTestData("Resource").getValue("resourceTitle", 3): null
+
+2019-11-22 18:08:02 - [TEST_STEP][PASSED] - resourceSummary = findTestData("Resource").getValue("resourceSummary", 3): null
+
+2019-11-22 18:08:02 - [TEST_STEP][PASSED] - type = findTestData("Resource").getValue("Type", 3): null
+
+2019-11-22 18:08:03 - [TEST_STEP][PASSED] - privateGroup = findTestData("Resource").getValue("privateGroup", 3): null
+
+2019-11-22 18:08:03 - [TEST_STEP][PASSED] - categoryName = findTestData("Resource").getValue("categoryName", 3): null
+
+2019-11-22 18:08:03 - [TEST_STEP][PASSED] - click(findTestObject("ResourcePage/addResource")): Object: 'Object Repository/ResourcePage/addResource' is clicked on
+
+2019-11-22 18:08:05 - [MESSAGE][PASSED] - Object: 'Object Repository/ResourcePage/addResource' is clicked on
+
+2019-11-22 18:08:05 - [TEST_STEP][PASSED] - insideTrack.Resources.setResourceTitleandDetail(resourceTitle, resourceSummary): insideTrack.Resources.setResourceTitleandDetail is PASSED
+
+2019-11-22 18:08:06 - [MESSAGE][PASSED] - Text 'ResourceIT3-221119' is set on object 'Object Repository/ResourcePage/Common/resourceTitle'
+
+2019-11-22 18:08:07 - [MESSAGE][PASSED] - Text 'ResourceIT3-221119 Summary' is set on object 'Object Repository/ResourcePage/Common/resourceSummary'
+
+2019-11-22 18:08:07 - [MESSAGE][PASSED] - insideTrack.Resources.setResourceTitleandDetail is PASSED
+
+2019-11-22 18:08:07 - [TEST_STEP][PASSED] - insideTrack.Resources.typeResource(type): insideTrack.Resources.typeResource is PASSED
+
+2019-11-22 18:08:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-11-22 18:08:10 - [MESSAGE][PASSED] - insideTrack.Resources.typeResource is PASSED
+
+2019-11-22 18:08:10 - [TEST_STEP][PASSED] - insideTrack.Content.setVisibility(privateGroup): insideTrack.Content.setVisibility is PASSED
+
+2019-11-22 18:08:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-11-22 18:08:12 - [MESSAGE][PASSED] - insideTrack.Content.setVisibility is PASSED
+
+2019-11-22 18:08:12 - [TEST_STEP][PASSED] - insideTrack.Content.setCategories(categoryName): insideTrack.Content.setCategories is PASSED
+
+2019-11-22 18:08:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-11-22 18:08:14 - [MESSAGE][PASSED] - insideTrack.Content.setCategories is PASSED
+
+2019-11-22 18:08:14 - [TEST_STEP][PASSED] - insideTrack.Content.uploadFile(): insideTrack.Content.uploadFile is PASSED
+
+2019-11-22 18:08:18 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-11-22 18:08:18 - [MESSAGE][PASSED] - File '/Users/abeerbhatti/Downloads/fnd-agile-syllabus_ga.pdf' sent to object: 'Object Repository/commonObjects/fileUploadBtnCSS'
+
+2019-11-22 18:08:22 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-11-22 18:08:22 - [MESSAGE][PASSED] - insideTrack.Content.uploadFile is PASSED
+
+2019-11-22 18:08:22 - [TEST_STEP][PASSED] - insideTrack.Resources.checkboxesVerification(): insideTrack.Resources.checkboxesVerification is PASSED
+
+2019-11-22 18:08:23 - [MESSAGE][PASSED] - Object 'Object Repository/ResourcePage/Common/sendNotification' is checked
+
+2019-11-22 18:08:23 - [MESSAGE][PASSED] - Object 'Object Repository/ResourcePage/Common/uptimeLogo' is checked
+
+2019-11-22 18:08:23 - [MESSAGE][PASSED] - insideTrack.Resources.checkboxesVerification is PASSED
+
+2019-11-22 18:08:23 - [TEST_STEP][PASSED] - insideTrack.Resources.verifyResourceSuccess(): insideTrack.Resources.verifyResourceSuccess is PASSED
+
+2019-11-22 18:08:23 - [MESSAGE][PASSED] - Object: 'Object Repository/ResourcePage/Common/continueBtn' is clicked on
+
+2019-11-22 18:08:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-11-22 18:08:25 - [MESSAGE][PASSED] - Object: 'Object Repository/ResourcePage/file/postBtn' is clicked on
+
+2019-11-22 18:09:00 - [MESSAGE][PASSED] - Object 'Object Repository/ResourcePage/Common/postingBtn' is NOT visible
+
+2019-11-22 18:09:02 - [MESSAGE][PASSED] - Object 'Object Repository/ResourcePage/Common/successMsgResource' is present
+
+2019-11-22 18:09:07 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-11-22 18:09:10 - [MESSAGE][PASSED] - Refresh successfully
+
+2019-11-22 18:09:15 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-11-22 18:09:15 - [MESSAGE][PASSED] - insideTrack.Resources.verifyResourceSuccess is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/createResourceLink" time="139.589" classname="Test Cases/createResourceLink" status="PASSED">
+         <system-out><![CDATA[2019-11-22 18:09:15 - [TEST_CASE][PASSED] - Test Cases/createResourceLink: Test Cases/createResourceLink
+
+2019-11-22 18:09:15 - [TEST_STEP][PASSED] - personas.userPersonas.loginUptimeCommunityMgr(): personas.userPersonas.loginUptimeCommunityMgr is PASSED
+
+2019-11-22 18:09:15 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-11-22 18:09:15 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-11-22 18:09:20 - [MESSAGE][PASSED] - Browser is opened with url: 'https://uptime-test.wisegateit.com/member/login/auth'
+
+2019-11-22 18:09:20 - [MESSAGE][PASSED] - Text 'brock1' is set on object 'Object Repository/Login/Username'
+
+2019-11-22 18:09:21 - [MESSAGE][PASSED] - Text 'w1seg@te' is set on object 'Object Repository/Login/Password'
+
+2019-11-22 18:09:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Loginbtn' is clicked on
+
+2019-11-22 18:09:29 - [MESSAGE][PASSED] - personas.userPersonas.loginUptimeCommunityMgr is PASSED
+
+2019-11-22 18:09:29 - [TEST_STEP][PASSED] - insideTrack.Resources.redirecttoResource(): insideTrack.Resources.redirecttoResource is PASSED
+
+2019-11-22 18:09:32 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/resourcesLink' is clicked on
+
+2019-11-22 18:09:34 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-11-22 18:09:34 - [MESSAGE][PASSED] - Object: 'Object Repository/ResourcePage/addResource' is clicked on
+
+2019-11-22 18:09:34 - [MESSAGE][PASSED] - insideTrack.Resources.redirecttoResource is PASSED
+
+2019-11-22 18:09:34 - [TEST_STEP][PASSED] - resourceTitle = findTestData("Resource").getValue("resourceTitle", 4): null
+
+2019-11-22 18:09:34 - [TEST_STEP][PASSED] - resourceSummary = findTestData("Resource").getValue("resourceSummary", 4): null
+
+2019-11-22 18:09:35 - [TEST_STEP][PASSED] - type = findTestData("Resource").getValue("Type", 4): null
+
+2019-11-22 18:09:35 - [TEST_STEP][PASSED] - privateGroup = findTestData("Resource").getValue("privateGroup", 4): null
+
+2019-11-22 18:09:35 - [TEST_STEP][PASSED] - categoryName = findTestData("Resource").getValue("categoryName", 4): null
+
+2019-11-22 18:09:35 - [TEST_STEP][PASSED] - insideTrack.Resources.setResourceTitleandDetail(resourceTitle, resourceSummary): insideTrack.Resources.setResourceTitleandDetail is PASSED
+
+2019-11-22 18:09:36 - [MESSAGE][PASSED] - Text 'ResourceIT4-221119' is set on object 'Object Repository/ResourcePage/Common/resourceTitle'
+
+2019-11-22 18:09:37 - [MESSAGE][PASSED] - Text 'ResourceIT4-221119 Summary' is set on object 'Object Repository/ResourcePage/Common/resourceSummary'
+
+2019-11-22 18:09:37 - [MESSAGE][PASSED] - insideTrack.Resources.setResourceTitleandDetail is PASSED
+
+2019-11-22 18:09:37 - [TEST_STEP][PASSED] - insideTrack.Resources.typeResource(type): insideTrack.Resources.typeResource is PASSED
+
+2019-11-22 18:09:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-11-22 18:09:40 - [MESSAGE][PASSED] - insideTrack.Resources.typeResource is PASSED
+
+2019-11-22 18:09:40 - [TEST_STEP][PASSED] - insideTrack.Content.setVisibility(privateGroup): insideTrack.Content.setVisibility is PASSED
+
+2019-11-22 18:09:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-11-22 18:09:42 - [MESSAGE][PASSED] - insideTrack.Content.setVisibility is PASSED
+
+2019-11-22 18:09:42 - [TEST_STEP][PASSED] - insideTrack.Content.setCategories(categoryName): insideTrack.Content.setCategories is PASSED
+
+2019-11-22 18:09:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-11-22 18:09:44 - [MESSAGE][PASSED] - insideTrack.Content.setCategories is PASSED
+
+2019-11-22 18:09:44 - [TEST_STEP][PASSED] - insideTrack.Content.addLink(): insideTrack.Content.addLink is PASSED
+
+2019-11-22 18:09:45 - [MESSAGE][PASSED] - Object 'Object Repository/ResourcePage/link/linkRadio' is checked
+
+2019-11-22 18:09:45 - [MESSAGE][PASSED] - Text 'https://www.quora.com' is set on object 'Object Repository/commonObjects/linkURLField1'
+
+2019-11-22 18:09:46 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-11-22 18:09:47 - [MESSAGE][PASSED] - Object: 'Object Repository/commonObjects/addingtheLink' is clicked on
+
+2019-11-22 18:09:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-11-22 18:09:48 - [MESSAGE][PASSED] - insideTrack.Content.addLink is PASSED
+
+2019-11-22 18:09:48 - [TEST_STEP][PASSED] - insideTrack.Resources.checkboxesVerification(): insideTrack.Resources.checkboxesVerification is PASSED
+
+2019-11-22 18:09:48 - [MESSAGE][PASSED] - Object 'Object Repository/ResourcePage/Common/sendNotification' is checked
+
+2019-11-22 18:09:48 - [MESSAGE][PASSED] - Object 'Object Repository/ResourcePage/Common/uptimeLogo' is checked
+
+2019-11-22 18:09:48 - [MESSAGE][PASSED] - insideTrack.Resources.checkboxesVerification is PASSED
+
+2019-11-22 18:09:48 - [TEST_STEP][PASSED] - insideTrack.Resources.verifyResourceSuccess(): insideTrack.Resources.verifyResourceSuccess is PASSED
+
+2019-11-22 18:09:49 - [MESSAGE][PASSED] - Object: 'Object Repository/ResourcePage/Common/continueBtn' is clicked on
+
+2019-11-22 18:09:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-11-22 18:09:50 - [MESSAGE][PASSED] - Object: 'Object Repository/ResourcePage/file/postBtn' is clicked on
+
+2019-11-22 18:11:19 - [MESSAGE][PASSED] - Object 'Object Repository/ResourcePage/Common/postingBtn' is NOT visible
+
+2019-11-22 18:11:21 - [MESSAGE][PASSED] - Object 'Object Repository/ResourcePage/Common/successMsgResource' is present
+
+2019-11-22 18:11:26 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-11-22 18:11:30 - [MESSAGE][PASSED] - Refresh successfully
+
+2019-11-22 18:11:35 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-11-22 18:11:35 - [MESSAGE][PASSED] - insideTrack.Resources.verifyResourceSuccess is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-11-22 18:03:45 - [TEST_SUITE][PASSED] - ContentCreation: Test Cases/createResourceLink]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

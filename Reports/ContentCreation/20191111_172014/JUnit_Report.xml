@@ -1,0 +1,578 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ContentCreation" time="205" tests="2" failures="0" errors="1">
+   <testsuite name="ContentCreation" tests="2" failures="0" errors="1" time="205" timestamp="2019-11-11 17:20:26" hostname="abeerbhatti - 192.168.88.21" id="Test Suites/ContentCreation">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/abeerbhatti/Katalon Studio/InsideTrack-August2019/Reports/ContentCreation/20191111_172014"/>
+         <property name="logFiles" value="/Users/abeerbhatti/Katalon Studio/InsideTrack-August2019/Reports/ContentCreation/20191111_172014/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="abeerbhatti - 192.168.88.21"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.9.1.2"/>
+         <property name="browser" value="Chrome 78.0.3904.97"/>
+         <property name="hostAddress" value="192.168.88.21"/>
+         <property name="sessionId" value="c807c260cc97ee6c0955f21060ea9690"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/createQuestion" classname="Test Cases/createQuestion" status="PASSED">
+         <system-out><![CDATA[2019-11-11 17:20:27 - [TEST_CASE][PASSED] - Test Cases/createQuestion: Test Cases/createQuestion
+
+2019-11-11 17:20:27 - [TEST_STEP][PASSED] - personas.userPersonas.loginUptimeCommunityMgr(): personas.userPersonas.loginUptimeCommunityMgr is PASSED
+
+2019-11-11 17:20:28 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-11-11 17:20:28 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-11-11 17:20:34 - [MESSAGE][PASSED] - Browser is opened with url: 'https://uptime-test.wisegateit.com/member/login/auth'
+
+2019-11-11 17:20:35 - [MESSAGE][PASSED] - Text 'brock1' is set on object 'Object Repository/Login/Username'
+
+2019-11-11 17:20:35 - [MESSAGE][PASSED] - Text 'w1seg@te' is set on object 'Object Repository/Login/Password'
+
+2019-11-11 17:20:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Loginbtn' is clicked on
+
+2019-11-11 17:20:48 - [MESSAGE][PASSED] - personas.userPersonas.loginUptimeCommunityMgr is PASSED
+
+2019-11-11 17:20:48 - [TEST_STEP][PASSED] - insideTrack.Discussions.redirecttoQuestion(): insideTrack.Discussions.redirecttoQuestion is PASSED
+
+2019-11-11 17:20:56 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/discussionsLink' is clicked on
+
+2019-11-11 17:20:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-11-11 17:20:58 - [MESSAGE][PASSED] - Object: 'Object Repository/DiscussionsPage/Questions/continueBtn' is clicked on
+
+2019-11-11 17:20:58 - [MESSAGE][PASSED] - insideTrack.Discussions.redirecttoQuestion is PASSED
+
+2019-11-11 17:20:58 - [TEST_STEP][PASSED] - questionName = findTestData("Question").getValue("question", 1): null
+
+2019-11-11 17:20:58 - [TEST_STEP][PASSED] - questionDescription = findTestData("Question").getValue("questionDescription", 1): null
+
+2019-11-11 17:20:58 - [TEST_STEP][PASSED] - privateGroup = findTestData("Question").getValue("privateGroup", 1): null
+
+2019-11-11 17:20:58 - [TEST_STEP][PASSED] - categoryName = findTestData("Question").getValue("categoryName", 1): null
+
+2019-11-11 17:20:58 - [TEST_STEP][PASSED] - insideTrack.Discussions.setQuestionTitleandDetail(questionName, questionDescription): insideTrack.Discussions.setQuestionTitleandDetail is PASSED
+
+2019-11-11 17:20:59 - [MESSAGE][PASSED] - Text 'Question1-111119' is set on object 'Object Repository/DiscussionsPage/Questions/questionName'
+
+2019-11-11 17:20:59 - [MESSAGE][PASSED] - Text 'Question1-111119 Summary' is set on object 'Object Repository/DiscussionsPage/Questions/questionDescription'
+
+2019-11-11 17:20:59 - [MESSAGE][PASSED] - insideTrack.Discussions.setQuestionTitleandDetail is PASSED
+
+2019-11-11 17:20:59 - [TEST_STEP][PASSED] - insideTrack.Content.setVisibility(privateGroup): insideTrack.Content.setVisibility is PASSED
+
+2019-11-11 17:21:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-11-11 17:21:01 - [MESSAGE][PASSED] - insideTrack.Content.setVisibility is PASSED
+
+2019-11-11 17:21:01 - [TEST_STEP][PASSED] - insideTrack.Content.setCategories(categoryName): insideTrack.Content.setCategories is PASSED
+
+2019-11-11 17:21:02 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-11-11 17:21:02 - [MESSAGE][PASSED] - insideTrack.Content.setCategories is PASSED
+
+2019-11-11 17:21:02 - [TEST_STEP][PASSED] - insideTrack.Discussions.discussionClickPreviewandPost(): insideTrack.Discussions.discussionClickPreviewandPost is PASSED
+
+2019-11-11 17:21:02 - [MESSAGE][PASSED] - Object: 'Object Repository/DiscussionsPage/Common/previewBtn' is clicked on
+
+2019-11-11 17:21:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-11-11 17:21:04 - [MESSAGE][PASSED] - Object: 'Object Repository/DiscussionsPage/Common/Postbtn' is clicked on
+
+2019-11-11 17:21:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-11-11 17:21:59 - [MESSAGE][PASSED] - Object 'Object Repository/DiscussionsPage/Common/Savingbtn' is NOT visible
+
+2019-11-11 17:21:59 - [MESSAGE][PASSED] - insideTrack.Discussions.discussionClickPreviewandPost is PASSED
+
+2019-11-11 17:21:59 - [TEST_STEP][PASSED] - insideTrack.Discussions.verifyQuestionSuccess(): insideTrack.Discussions.verifyQuestionSuccess is PASSED
+
+2019-11-11 17:21:59 - [MESSAGE][PASSED] - Object 'Object Repository/DiscussionsPage/Questions/successMsgQuestion' is present
+
+2019-11-11 17:22:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-11-11 17:22:00 - [MESSAGE][PASSED] - Object: 'Object Repository/DiscussionsPage/Questions/crossSuccessMsg' is clicked on
+
+2019-11-11 17:22:00 - [MESSAGE][PASSED] - insideTrack.Discussions.verifyQuestionSuccess is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/createPoll" classname="Test Cases/createPoll" status="PASSED">
+         <system-out><![CDATA[2019-11-11 17:22:00 - [TEST_CASE][PASSED] - Test Cases/createPoll: Test Cases/createPoll
+
+2019-11-11 17:22:00 - [TEST_STEP][PASSED] - personas.userPersonas.loginUptimeCommunityMgr(): personas.userPersonas.loginUptimeCommunityMgr is PASSED
+
+2019-11-11 17:22:00 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-11-11 17:22:00 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-11-11 17:22:04 - [MESSAGE][PASSED] - Browser is opened with url: 'https://uptime-test.wisegateit.com/member/login/auth'
+
+2019-11-11 17:22:04 - [MESSAGE][PASSED] - Text 'brock1' is set on object 'Object Repository/Login/Username'
+
+2019-11-11 17:22:04 - [MESSAGE][PASSED] - Text 'w1seg@te' is set on object 'Object Repository/Login/Password'
+
+2019-11-11 17:22:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Loginbtn' is clicked on
+
+2019-11-11 17:22:13 - [MESSAGE][PASSED] - personas.userPersonas.loginUptimeCommunityMgr is PASSED
+
+2019-11-11 17:22:13 - [TEST_STEP][PASSED] - insideTrack.Discussions.redirecttoPoll(): insideTrack.Discussions.redirecttoPoll is PASSED
+
+2019-11-11 17:22:16 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/discussionsLink' is clicked on
+
+2019-11-11 17:22:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-11-11 17:22:18 - [MESSAGE][PASSED] - Object 'Object Repository/DiscussionsPage/Polls/radioPoll' is checked
+
+2019-11-11 17:22:18 - [MESSAGE][PASSED] - Object: 'Object Repository/DiscussionsPage/Questions/continueBtn' is clicked on
+
+2019-11-11 17:22:18 - [MESSAGE][PASSED] - insideTrack.Discussions.redirecttoPoll is PASSED
+
+2019-11-11 17:22:18 - [TEST_STEP][PASSED] - pollName = findTestData("Polls").getValue("Poll", 1): null
+
+2019-11-11 17:22:18 - [TEST_STEP][PASSED] - pollDescription = findTestData("Polls").getValue("pollDescription", 1): null
+
+2019-11-11 17:22:18 - [TEST_STEP][PASSED] - optionA = findTestData("Polls").getValue("Answer1", 1): null
+
+2019-11-11 17:22:18 - [TEST_STEP][PASSED] - optionB = findTestData("Polls").getValue("Answer2", 1): null
+
+2019-11-11 17:22:18 - [TEST_STEP][PASSED] - optionC = findTestData("Polls").getValue("Answer3", 1): null
+
+2019-11-11 17:22:18 - [TEST_STEP][PASSED] - privateGroup = findTestData("Polls").getValue("privateGroup", 1): null
+
+2019-11-11 17:22:18 - [TEST_STEP][PASSED] - categoryName = findTestData("Polls").getValue("categoryName", 1): null
+
+2019-11-11 17:22:18 - [TEST_STEP][PASSED] - insideTrack.Discussions.setPollTitleandDetail(pollName, pollDescription): insideTrack.Discussions.setPollTitleandDetail is PASSED
+
+2019-11-11 17:22:19 - [MESSAGE][PASSED] - Text 'Poll1-111119' is set on object 'Object Repository/DiscussionsPage/Polls/pollName'
+
+2019-11-11 17:22:19 - [MESSAGE][PASSED] - Text 'Poll1-111119' is set on object 'Object Repository/DiscussionsPage/Polls/pollDescription'
+
+2019-11-11 17:22:19 - [MESSAGE][PASSED] - insideTrack.Discussions.setPollTitleandDetail is PASSED
+
+2019-11-11 17:22:19 - [TEST_STEP][PASSED] - insideTrack.Discussions.setOptionsForPolls(optionA, optionB, optionC): insideTrack.Discussions.setOptionsForPolls is PASSED
+
+2019-11-11 17:22:19 - [MESSAGE][PASSED] - Text 'A' is set on object 'Object Repository/DiscussionsPage/Polls/answer1Poll'
+
+2019-11-11 17:22:19 - [MESSAGE][PASSED] - Text 'B' is set on object 'Object Repository/DiscussionsPage/Polls/answer2Poll'
+
+2019-11-11 17:22:19 - [MESSAGE][PASSED] - Text 'C' is set on object 'Object Repository/DiscussionsPage/Polls/answer3Poll'
+
+2019-11-11 17:22:19 - [MESSAGE][PASSED] - insideTrack.Discussions.setOptionsForPolls is PASSED
+
+2019-11-11 17:22:19 - [TEST_STEP][PASSED] - insideTrack.Content.setVisibility(privateGroup): insideTrack.Content.setVisibility is PASSED
+
+2019-11-11 17:22:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-11-11 17:22:20 - [MESSAGE][PASSED] - insideTrack.Content.setVisibility is PASSED
+
+2019-11-11 17:22:20 - [TEST_STEP][PASSED] - insideTrack.Content.setCategories(categoryName): insideTrack.Content.setCategories is PASSED
+
+2019-11-11 17:22:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-11-11 17:22:21 - [MESSAGE][PASSED] - insideTrack.Content.setCategories is PASSED
+
+2019-11-11 17:22:21 - [TEST_STEP][PASSED] - insideTrack.Discussions.discussionClickPreviewandPost(): insideTrack.Discussions.discussionClickPreviewandPost is PASSED
+
+2019-11-11 17:22:21 - [MESSAGE][PASSED] - Object: 'Object Repository/DiscussionsPage/Common/previewBtn' is clicked on
+
+2019-11-11 17:22:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-11-11 17:22:23 - [MESSAGE][PASSED] - Object: 'Object Repository/DiscussionsPage/Common/Postbtn' is clicked on
+
+2019-11-11 17:22:25 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-11-11 17:23:17 - [MESSAGE][PASSED] - Object 'Object Repository/DiscussionsPage/Common/Savingbtn' is NOT visible
+
+2019-11-11 17:23:17 - [MESSAGE][PASSED] - insideTrack.Discussions.discussionClickPreviewandPost is PASSED
+
+2019-11-11 17:23:17 - [TEST_STEP][PASSED] - insideTrack.Discussions.verifyPollSuccess(): insideTrack.Discussions.verifyPollSuccess is PASSED
+
+2019-11-11 17:23:18 - [MESSAGE][PASSED] - Object 'Object Repository/DiscussionsPage/Polls/successMsgPoll' is present
+
+2019-11-11 17:23:18 - [MESSAGE][PASSED] - Object: 'Object Repository/DiscussionsPage/Polls/crossSuccessMsg' is clicked on
+
+2019-11-11 17:23:23 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-11-11 17:23:23 - [MESSAGE][PASSED] - insideTrack.Discussions.verifyPollSuccess is PASSED
+
+2019-11-11 17:23:23 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+2019-11-11 17:23:26 - [MESSAGE][PASSED] - Refresh successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/createAnnouncement" classname="Test Cases/createAnnouncement" status="ERROR">
+         <error type="ERROR" message="Test Cases/createAnnouncement FAILED.
+Reason:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;div[class='positionHelper'] > div > ul > li > a[name='News']&quot;}
+  (Session info: chrome=78.0.3904.97)
+  (Driver info: chromedriver=2.43.600229 (3fae4d0cda5334b4f533bede5a4787f7b832d052),platform=Mac OS X 10.12.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Abeers-MacBook-Pro.local', ip: 'fe80:0:0:0:cc7:a9cc:c4b0:3cb2%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600229 (3fae4d0cda5334..., userDataDir: /var/folders/cv/wd53xsn5329...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:64179}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 78.0.3904.97, webStorageEnabled: true}
+Session ID: c807c260cc97ee6c0955f21060ea9690
+*** Element info: {Using=css selector, value=div[class='positionHelper'] > div > ul > li > a[name='News']}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:370)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:464)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.WebDriver$findElement.call(Unknown Source)
+	at insideTrack.Announcement.setAnnouncementType(Content.groovy:224)
+	at insideTrack.Announcement.invokeMethod(Content.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at createAnnouncement.run(createAnnouncement:46)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1573474824936.run(TempTestSuite1573474824936.groovy:36)
+"/>
+         <system-out><![CDATA[2019-11-11 17:23:26 - [TEST_CASE][ERROR] - Test Cases/createAnnouncement: Test Cases/createAnnouncement FAILED.
+Reason:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"div[class='positionHelper'] > div > ul > li > a[name='News']"}
+  (Session info: chrome=78.0.3904.97)
+  (Driver info: chromedriver=2.43.600229 (3fae4d0cda5334b4f533bede5a4787f7b832d052),platform=Mac OS X 10.12.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Abeers-MacBook-Pro.local', ip: 'fe80:0:0:0:cc7:a9cc:c4b0:3cb2%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600229 (3fae4d0cda5334..., userDataDir: /var/folders/cv/wd53xsn5329...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:64179}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 78.0.3904.97, webStorageEnabled: true}
+Session ID: c807c260cc97ee6c0955f21060ea9690
+*** Element info: {Using=css selector, value=div[class='positionHelper'] > div > ul > li > a[name='News']}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:370)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:464)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.WebDriver$findElement.call(Unknown Source)
+	at insideTrack.Announcement.setAnnouncementType(Content.groovy:224)
+	at insideTrack.Announcement.invokeMethod(Content.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at createAnnouncement.run(createAnnouncement:46)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1573474824936.run(TempTestSuite1573474824936.groovy:36)
+
+
+2019-11-11 17:23:26 - [TEST_STEP][PASSED] - personas.userPersonas.loginUptimeCommunityMgr(): personas.userPersonas.loginUptimeCommunityMgr is PASSED
+
+2019-11-11 17:23:26 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-11-11 17:23:27 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-11-11 17:23:31 - [MESSAGE][PASSED] - Browser is opened with url: 'https://uptime-test.wisegateit.com/member/login/auth'
+
+2019-11-11 17:23:32 - [MESSAGE][PASSED] - Text 'brock1' is set on object 'Object Repository/Login/Username'
+
+2019-11-11 17:23:32 - [MESSAGE][PASSED] - Text 'w1seg@te' is set on object 'Object Repository/Login/Password'
+
+2019-11-11 17:23:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Loginbtn' is clicked on
+
+2019-11-11 17:23:41 - [MESSAGE][PASSED] - personas.userPersonas.loginUptimeCommunityMgr is PASSED
+
+2019-11-11 17:23:41 - [TEST_STEP][PASSED] - insideTrack.Announcement.redirecttoAnnouncement(): insideTrack.Announcement.redirecttoAnnouncement is PASSED
+
+2019-11-11 17:23:47 - [MESSAGE][PASSED] - Navigate to 'https://uptime-test.wisegateit.com/member/announcement/list' successfully
+
+2019-11-11 17:23:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Announcements/addNewAnnouncement' is clicked on
+
+2019-11-11 17:23:51 - [MESSAGE][PASSED] - Text 'Enter an Announcement' is present on page 
+
+2019-11-11 17:23:51 - [MESSAGE][PASSED] - insideTrack.Announcement.redirecttoAnnouncement is PASSED
+
+2019-11-11 17:23:51 - [TEST_STEP][PASSED] - announcementtitle = findTestData("Announcements").getValue("announcement", 1): null
+
+2019-11-11 17:23:51 - [TEST_STEP][PASSED] - announcementDescription = findTestData("Announcements").getValue("announcementDescription", 1): null
+
+2019-11-11 17:23:51 - [TEST_STEP][PASSED] - type = findTestData("Announcements").getValue("Type", 1): null
+
+2019-11-11 17:23:51 - [TEST_STEP][PASSED] - privateGroup = findTestData("Announcements").getValue("privateGroup", 1): null
+
+2019-11-11 17:23:51 - [TEST_STEP][PASSED] - insideTrack.Announcement.setAnnouncementTitleandDescription(announcementtitle, announcementDescription): insideTrack.Announcement.setAnnouncementTitleandDescription is PASSED
+
+2019-11-11 17:23:51 - [MESSAGE][PASSED] - Text 'Announcement3-4919' is set on object 'Object Repository/Announcements/titleAnnouncement'
+
+2019-11-11 17:23:51 - [MESSAGE][PASSED] - Text 'Announcement3-4919 Summary' is set on object 'Object Repository/Announcements/descriptionAnnouncement'
+
+2019-11-11 17:23:51 - [MESSAGE][PASSED] - insideTrack.Announcement.setAnnouncementTitleandDescription is PASSED
+
+2019-11-11 17:23:51 - [TEST_STEP][ERROR] - insideTrack.Announcement.setAnnouncementType(type): insideTrack.Announcement.setAnnouncementType(type) FAILED.
+Reason:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"div[class='positionHelper'] > div > ul > li > a[name='News']"}
+  (Session info: chrome=78.0.3904.97)
+  (Driver info: chromedriver=2.43.600229 (3fae4d0cda5334b4f533bede5a4787f7b832d052),platform=Mac OS X 10.12.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Abeers-MacBook-Pro.local', ip: 'fe80:0:0:0:cc7:a9cc:c4b0:3cb2%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600229 (3fae4d0cda5334..., userDataDir: /var/folders/cv/wd53xsn5329...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:64179}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 78.0.3904.97, webStorageEnabled: true}
+Session ID: c807c260cc97ee6c0955f21060ea9690
+*** Element info: {Using=css selector, value=div[class='positionHelper'] > div > ul > li > a[name='News']}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:370)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:464)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.WebDriver$findElement.call(Unknown Source)
+	at insideTrack.Announcement.setAnnouncementType(Content.groovy:224)
+	at insideTrack.Announcement.invokeMethod(Content.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at createAnnouncement.run(createAnnouncement:46)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1573474824936.run(TempTestSuite1573474824936.groovy:36)
+
+
+2019-11-11 17:23:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-11-11 17:23:52 - [MESSAGE][ERROR] - no such element: Unable to locate element: {"method":"css selector","selector":"div[class='positionHelper'] > div > ul > li > a[name='News']"}
+  (Session info: chrome=78.0.3904.97)
+  (Driver info: chromedriver=2.43.600229 (3fae4d0cda5334b4f533bede5a4787f7b832d052),platform=Mac OS X 10.12.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Abeers-MacBook-Pro.local', ip: 'fe80:0:0:0:cc7:a9cc:c4b0:3cb2%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600229 (3fae4d0cda5334..., userDataDir: /var/folders/cv/wd53xsn5329...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:64179}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 78.0.3904.97, webStorageEnabled: true}
+Session ID: c807c260cc97ee6c0955f21060ea9690
+*** Element info: {Using=css selector, value=div[class='positionHelper'] > div > ul > li > a[name='News']}
+
+2019-11-11 17:23:52 - [MESSAGE][ERROR] - insideTrack.Announcement.setAnnouncementType(type) FAILED.
+Reason:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"div[class='positionHelper'] > div > ul > li > a[name='News']"}
+  (Session info: chrome=78.0.3904.97)
+  (Driver info: chromedriver=2.43.600229 (3fae4d0cda5334b4f533bede5a4787f7b832d052),platform=Mac OS X 10.12.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Abeers-MacBook-Pro.local', ip: 'fe80:0:0:0:cc7:a9cc:c4b0:3cb2%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600229 (3fae4d0cda5334..., userDataDir: /var/folders/cv/wd53xsn5329...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:64179}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 78.0.3904.97, webStorageEnabled: true}
+Session ID: c807c260cc97ee6c0955f21060ea9690
+*** Element info: {Using=css selector, value=div[class='positionHelper'] > div > ul > li > a[name='News']}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:370)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:464)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.WebDriver$findElement.call(Unknown Source)
+	at insideTrack.Announcement.setAnnouncementType(Content.groovy:224)
+	at insideTrack.Announcement.invokeMethod(Content.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at createAnnouncement.run(createAnnouncement:46)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1573474824936.run(TempTestSuite1573474824936.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-11-11 17:23:26 - [TEST_CASE][ERROR] - Test Cases/createAnnouncement: Test Cases/createAnnouncement FAILED.
+Reason:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"div[class='positionHelper'] > div > ul > li > a[name='News']"}
+  (Session info: chrome=78.0.3904.97)
+  (Driver info: chromedriver=2.43.600229 (3fae4d0cda5334b4f533bede5a4787f7b832d052),platform=Mac OS X 10.12.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Abeers-MacBook-Pro.local', ip: 'fe80:0:0:0:cc7:a9cc:c4b0:3cb2%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600229 (3fae4d0cda5334..., userDataDir: /var/folders/cv/wd53xsn5329...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:64179}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 78.0.3904.97, webStorageEnabled: true}
+Session ID: c807c260cc97ee6c0955f21060ea9690
+*** Element info: {Using=css selector, value=div[class='positionHelper'] > div > ul > li > a[name='News']}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:370)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:464)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.WebDriver$findElement.call(Unknown Source)
+	at insideTrack.Announcement.setAnnouncementType(Content.groovy:224)
+	at insideTrack.Announcement.invokeMethod(Content.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at createAnnouncement.run(createAnnouncement:46)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1573474824936.run(TempTestSuite1573474824936.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-11-11 17:20:26 - [TEST_SUITE][ERROR] - ContentCreation: Test Cases/createAnnouncement FAILED.
+Reason:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"div[class='positionHelper'] > div > ul > li > a[name='News']"}
+  (Session info: chrome=78.0.3904.97)
+  (Driver info: chromedriver=2.43.600229 (3fae4d0cda5334b4f533bede5a4787f7b832d052),platform=Mac OS X 10.12.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Abeers-MacBook-Pro.local', ip: 'fe80:0:0:0:cc7:a9cc:c4b0:3cb2%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600229 (3fae4d0cda5334..., userDataDir: /var/folders/cv/wd53xsn5329...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:64179}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 78.0.3904.97, webStorageEnabled: true}
+Session ID: c807c260cc97ee6c0955f21060ea9690
+*** Element info: {Using=css selector, value=div[class='positionHelper'] > div > ul > li > a[name='News']}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:370)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:464)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.WebDriver$findElement.call(Unknown Source)
+	at insideTrack.Announcement.setAnnouncementType(Content.groovy:224)
+	at insideTrack.Announcement.invokeMethod(Content.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at createAnnouncement.run(createAnnouncement:46)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1573474824936.run(TempTestSuite1573474824936.groovy:36)]]></system-out>
+      <system-err><![CDATA[2019-11-11 17:20:26 - [TEST_SUITE][ERROR] - ContentCreation: Test Cases/createAnnouncement FAILED.
+Reason:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"div[class='positionHelper'] > div > ul > li > a[name='News']"}
+  (Session info: chrome=78.0.3904.97)
+  (Driver info: chromedriver=2.43.600229 (3fae4d0cda5334b4f533bede5a4787f7b832d052),platform=Mac OS X 10.12.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Abeers-MacBook-Pro.local', ip: 'fe80:0:0:0:cc7:a9cc:c4b0:3cb2%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600229 (3fae4d0cda5334..., userDataDir: /var/folders/cv/wd53xsn5329...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:64179}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 78.0.3904.97, webStorageEnabled: true}
+Session ID: c807c260cc97ee6c0955f21060ea9690
+*** Element info: {Using=css selector, value=div[class='positionHelper'] > div > ul > li > a[name='News']}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:370)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:464)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.WebDriver$findElement.call(Unknown Source)
+	at insideTrack.Announcement.setAnnouncementType(Content.groovy:224)
+	at insideTrack.Announcement.invokeMethod(Content.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at createAnnouncement.run(createAnnouncement:46)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1573474824936.run(TempTestSuite1573474824936.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>
