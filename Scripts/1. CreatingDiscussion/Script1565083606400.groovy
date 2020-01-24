@@ -44,6 +44,6 @@ WebUI.delay(2)
 int TotalRows = findTestData('Question').getRowNumbers()
 for (GlobalVariable.i=1; GlobalVariable.i<=TotalRows; GlobalVariable.i++){
 	System.out.println("Number" + GlobalVariable.i + "of " + TotalRows + "Question")	
-	WebUI.callTestCase(findTestCase('createQuestion'), [:], FailureHandling.STOP_ON_FAILURE)
+	WebUI.callTestCase(findTestCase('Questions/createQuestion'), [:], FailureHandling.STOP_ON_FAILURE)
 	WebUI.delay(2)
 }

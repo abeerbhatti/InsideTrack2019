@@ -30,7 +30,7 @@ import org.openqa.selenium.support.ui.Select as Select
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 import org.openqa.selenium.remote.RemoteWebElement
 
-CustomKeywords.'personas.userPersonas.loginUptimeCommunityMgr'()
+CustomKeywords.'personas.userPersonas.loginUptimeSmallGroupUser'()
 CustomKeywords.'insideTrack.Discussions.landatDiscussionsListPage'()
 
 int TotalRows = findTestData('Question').getRowNumbers()
@@ -47,5 +47,4 @@ for (GlobalVariable.i=1; GlobalVariable.i<=TotalRows; GlobalVariable.i++){
 	CustomKeywords.'insideTrack.Content.setCategories'(categoryName)
 	CustomKeywords.'insideTrack.Discussions.discussionClickPreviewandPost'()
 	CustomKeywords.'insideTrack.Discussions.verifyQuestionSuccess'()
-
 }

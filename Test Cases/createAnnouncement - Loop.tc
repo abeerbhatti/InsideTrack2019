@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>createPoll - Loopy</name>
+   <name>createAnnouncement - Loop</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>c9ceb66f-bae0-4f11-8433-0d4a5de68ae8</testCaseGuid>
+   <testCaseGuid>579d2df5-246b-40c0-a704-f3caf5fb1aa2</testCaseGuid>
 </TestCaseEntity>

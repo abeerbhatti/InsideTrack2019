@@ -50,6 +50,9 @@ public class userPersonas {
 		WebUI.setText(findTestObject('Login/Username'), username)
 		WebUI.setText(findTestObject('Login/Password'), password)
 		WebUI.click(findTestObject('Login/Loginbtn'))
+		if (WebUI.verifyTextPresent("Join Us For an Upcoming Roundtable Discussion!", false)){
+			WebUI.click(findTestObject('RoundtableSplashSceen/continueBtn'))
+		}
 	}
 
 	@Keyword

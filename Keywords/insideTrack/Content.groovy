@@ -48,7 +48,8 @@ public class Content{
 	def setCategories(String categoryName){
 		driver.findElement(By.cssSelector("div[class='resource-category'] > div > div > a > span[class='ui-icon ui-icon-triangle-1-s']")).click()
 		WebUI.delay(1)
-		List <WebElement> category = driver.findElements(By.cssSelector("div[class='positionHelper'] > div > ul[class='fg-menu ui-corner-all'] > li[class='cfm']"))
+		//List <WebElement> category = driver.findElements(By.cssSelector("div[class='positionHelper'] > div > ul[class='fg-menu ui-corner-all'] > li[class='cfm']"))
+		List <WebElement> category = driver.findElements(By.cssSelector("div[class='positionHelper'] > div > ul[class='fg-menu ui-corner-all'] > li"))
 		for (WebElement option: category) {
 			if(categoryName.equals(option.getText()))
 				option.click();
@@ -65,9 +66,9 @@ public class Content{
 	}
 
 	@Keyword
-	def addLink(){
+	def addLink(URL){
 		WebUI.check(findTestObject('ResourcePage/link/linkRadio'))
-		String URL = findTestData('Resource').getValue('link', 2)
+		//String URL = findTestData('Resource').getValue('link', 2)
 		WebUI.setText(findTestObject('commonObjects/linkURLField1'), URL)
 		WebUI.delay(1)
 		WebUI.click(findTestObject('commonObjects/addingtheLink'))

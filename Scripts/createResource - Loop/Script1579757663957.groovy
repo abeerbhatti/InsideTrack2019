@@ -40,13 +40,15 @@ for (GlobalVariable.i=1; GlobalVariable.i<=TotalRows; GlobalVariable.i++){
 	String type = findTestData('Resource').getValue('Type', GlobalVariable.i)
 	String privateGroup = findTestData('Resource').getValue('privateGroup', GlobalVariable.i)
 	String categoryName = findTestData('Resource').getValue('categoryName', GlobalVariable.i)
+	String URL = findTestData('Resource').getValue('link', GlobalVariable.i)
 	
 	WebUI.click(findTestObject('ResourcePage/addResource'))
 	CustomKeywords.'insideTrack.Resources.setResourceTitleandDetail'(resourceTitle, resourceSummary)
 	CustomKeywords.'insideTrack.Resources.typeResource'(type)
 	CustomKeywords.'insideTrack.Content.setVisibility'(privateGroup)
 	CustomKeywords.'insideTrack.Content.setCategories'(categoryName)
-	CustomKeywords.'insideTrack.Content.uploadFile'()
+	//CustomKeywords.'insideTrack.Content.uploadFile'()
+	CustomKeywords.'insideTrack.Content.addLink'(URL)
 	CustomKeywords.'insideTrack.Resources.checkboxesVerification'()
 	CustomKeywords.'insideTrack.Resources.verifyResourceSuccess'()
 }

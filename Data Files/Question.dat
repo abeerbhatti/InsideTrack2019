@@ -6,7 +6,7 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>8ba51670-9cb4-4af1-9045-e0c55d9c95d6</dataFileGUID>
-   <dataSourceUrl>/Users/abeerbhatti/Katalon Studio/InsideTrack-August2019/Inputs/Questions-ForAllGroups.xlsx</dataSourceUrl>
+   <dataSourceUrl>/Users/abeerbhatti/Katalon Studio/InsideTrack-August2019/Inputs/Question-SomeEmails.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>false</isInternalPath>
    <query></query>
